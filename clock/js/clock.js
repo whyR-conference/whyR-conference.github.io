@@ -110,11 +110,11 @@ $(document).ready(function() {
 		/* Date and time when your site starts to work */
 
 		var c = {
-			year : 2016,
-			month : 2,
-			day : 10,
-			hh : 18,
-			min : 40,
+			year : 2017,
+			month : 9,
+			day : 27,
+			hh : 9,
+			min : 0,
 			sec : 0,
 			milsec : 0
 		};
