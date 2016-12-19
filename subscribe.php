@@ -24,7 +24,7 @@ if($_POST)
     $email     = filter_var($_POST["subscribe_email"], FILTER_SANITIZE_EMAIL);
     $output = json_encode(array('type'=>'message', 'text' => 'Thank you. Your email was sent successfully.'));
    
-    $send_mail = @mail($to_email, '', 'You have a new subscriber '.$email , $headers); 
+    $send_mail = @mail($to_email, 'ASD', 'You have a new subscriber '.$email , $headers); 
     
     die($output);
     
