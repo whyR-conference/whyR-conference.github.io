@@ -491,6 +491,28 @@ body {
 	font-weight: 200;
 }
 
+.services2 {
+	text-align: center;
+	margin-bottom: 14px;
+	padding-left: 0;
+}
+.services2 li {
+	display: inline-block;
+	text-align: center;
+	margin: 0 14px;
+}
+.services2 li img {
+	margin-bottom: 14px;
+}
+.services2 li p {
+	margin: 0;
+	font-size: 14px;
+	color: #fffefe;
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 150;
+}
+
+
 /*------------------------------------------------------------------
 [4. Contacts]
 */
