@@ -182,7 +182,7 @@ body {
 	text-align: center;
 	display: table;
 	font-weight: 300;
-	height: 110%;
+	height: 125%;
 	min-height: 100%;
 	position: relative;
 	vertical-align: middle;
@@ -190,7 +190,7 @@ body {
 	z-index: 50;
 }
 .mainarea-content {
-	height: 110%;
+	height: 125%;
 	min-height: 100%;
 	overflow: hidden;
 	padding: 46px 0;
@@ -775,26 +775,6 @@ body {
 	margin: 0 8px;
 }
 .social li a:hover {
-	opacity: 0.7;
-}
-
-.social2-container {
-	position: absolute;
-  width: 50%;
-	bottom: 56px;
-	right: 50px;
-	z-index: 50;
-}
-.social2 {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-.social2 li {
-	float: left;
-	margin: 0 8px;
-}
-.social2 li a:hover {
 	opacity: 0.7;
 }
 
