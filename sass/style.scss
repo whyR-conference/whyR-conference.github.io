@@ -1,0 +1,30 @@
+@import 'reset.scss';
+@import 'variables.scss';
+@import 'typography.scss';
+@import 'grid.scss';
+@import 'mixins.scss';
+@import 'menu.scss';
+
+html {
+  padding: 0;
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  height: 100%;
+}
+
+.top {
+	background-image: url('http://www.warsawtour.pl/sites/default/files/panorama_warszawy2_fot._z_archiwum_warszawskiej_organizacji_turystycznej.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 100%;
+	min-height: 900px;
+}
+

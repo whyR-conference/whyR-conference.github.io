@@ -1,534 +1,540 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js">
-	<!--<![endif]-->
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>Polish R Users Conference</title>
-		<meta name="description" content="">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat|Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!-- Style -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- JQ -->
+	<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-migrate-3.0.0.js" integrity="sha256-lsVOB+3Yhm6He5MkTO3Bw/Xw4NXK7wYYTi1Y+M/2PrM=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="top">
+		<div class="wrapper">
+			<div class="navbar">
+    <div class="main-menu">
+        <div class="mobile-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <ul>
+               <li><a href="#">Why R?</a></li>
+						<li><a href="#">Mówcy</a></li>
+						<li><a href="#">Program</a></li>
+						<li><a href="#">Warsztaty</a></li>
+						<li><a href="#">Sponsorzy</a></li>
+						<li><a href="#">Organizatorzy</a></li>
+						<li><a href="#">Partnerzy</a></li>
+						<li><a href="#">Materiały</a></li>
+						<li><a href="#">Cena</a></li>
+            </ul>
+        </nav>
 
-		<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Exo+2:400,100,100italic,200,200italic,300,300italic,400italic,500,500italic,700,700italic,600,600italic' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="css/normalize.css">
-		<link rel="stylesheet" type="text/css" href="css/component.css" />
-		<link rel="stylesheet" type="text/css" href="css/bg-slider.css" />
-		<link rel="stylesheet" type="text/css" href="clock/css/clock.css">
-		<link rel="stylesheet" type="text/css" href="css/main.css">
-		<link rel="stylesheet" type="text/css" href="css/responsive.css">
-		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
-			<script>
-			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    </div> <!-- / row -->
 
-			  ga('create', 'UA-89584843-1', 'auto');
-			  ga('send', 'pageview');
-
-			</script>
-
-
-
-	</head>
-	<body>
-		<!--[if lt IE 7]>
-		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-		<![endif]-->
-
-		<ul class="cb-slideshow">
-			<li>
-				<span>Image 01</span>
-			</li>
-			<li>
-				<span>Image 02</span>
-			</li>
-			<li>
-				<span>Image 03</span>
-			</li>
-			<li>
-				<span>Image 04</span>
-			</li>
-			<li>
-				<span>Image 05</span>
-			</li>
-			<li>
-				<span>Image 06</span>
-			</li>
-		</ul>
-
-		<section class="main-menu-container">
-			<div class="show_toggle"><a href="#"></a></div>
-			<ul class="main-menu">
-				<li>
-					<a href="#" class="home-link"><b>Główna</b></a>
-				</li>
-				<li>
-					<a href="#" data-page="whyr"><b>Why R?</b></a>
-				</li>
-				<li>
-					<a href="#" data-page="organizers"><b>Organizatorzy</b></a>
-				</li>
-				<li>
-					<a href="#" data-page="schedule"><b>Harmonogram</b></a>
-				</li>
-				<li>
-					<a href="blog/"><b>Blog</b></a>
-				</li>
-				<li>
-					<a href="http://www.mini.pw.edu.pl/cisim2015/index.php?menu=venue"><b>Zwiedzanie</b></a>
-				</li>
-				<li>
-					<a href="en/index.html"><img src="img/english-language.png" alt="" width="50px" height="20px"/></a>
-				</li>
-			</ul>
-		</section>
-		<section class="twitter-container">
-			<div class="twitter">
-				<ul class="tweet_list" id="tweet_list">
-					<li class="tweet_first tweet_odd">
-						<span class="tweet_text">Mamy przyjemność organizować
-							<br>
-							Ogólnopolską Konferencję Użytkowników <b>R</b>.
-							<br>Wrzesień 2017, Warszawa!</span>
-					</li>
-					<li class="tweet_even">
-						<span class="tweet_text"><span class="at">Obserwujcie @</span><a href="http://twitter.com/whyRconf">whyRconf</a> na Twitter'ze aby uzyskać więcej wiadomości :) i bądźcie czujni!</span>
-					</li>
-					<li class="tweet_odd">
-						<span class="tweet_text"><span class="at">Byliście na @</span><a href="http://twitter.com/eRum2016">erum2016</a>? <br>Nie przegapcie następnego dużego spotkania użytkowników <b>R</b> w Polsce <br>- konerfencji "Why R?"!</span>
-					</li>
-				</ul>
+</div>
+			<div class="first-title">
+			<h2>Konferencja</h2>
+			<h1>Why R</h1>
 			</div>
-		</section>
-		<section class="mainarea">
-			<div id="clock" class="active">
-				<br><br>
-				<div class="clock-container">
-					<div id="time-container-wrap">
-						<div id="time-container">
-							<div class="numbers-container"></div>
-							<span id="ticker" class="clock-label"><h4>Why R?</h4></span>
-							<span id="timelable" class="clock-label">POZOSTAŁO</span>
-							<span id="timeleft" class="clock-label">COUNTDOWN</span>
-							<figure id="canvas"></figure>
+			<div class="register-bar">
+			<a href="#">Zarejestruj się!</a>
+			</div>
+		</div>
+	</div>
+	<!-- Sekcja o konferencji -->
+	<section class="about">
+		<div class="wrapper">
+			<header>
+				<h4>Why R</h4>
+				<h3>Why R</h3>
+			</header>
+				<div class="owl-carousel">
+					  <div> Your Content </div>
+					  <div> Your Content </div>
+					  <div> Your Content </div>
+					  <div> Your Content </div>
+					  <div> Your Content </div>
+					  <div> Your Content </div>
+					  <div> Your Content </div>
+					  <div> Your Content </div>
+					  <div> Your Content </div>
+					  <div> Your Content </div>
+					  <div> Your Content </div>
+					  <div> Your Content </div>
+				</div>
+			</div>
+	</section>
+	<!-- Sekcja o mówcach -->
+	<section>
+	<div class="wrapper">
+			<header>
+				<h4>Speakers</h4>
+				<h3>Our Grate Speakers</h3>
+			</header>
+				<div class="row">
+					<div class="col-6">
+						<div class="speakers-icon"></div>
+						<img src="">
+						<div class="who">
+							<h5>Imie nazwisko</h5>
+							<p>Co robi</p>
+							<p>lorem ipsum w dupe pipsum musi być tak, gdzies ze dwie linijki ghfghf tekst</p>
 						</div>
 					</div>
-					<br><p> Ogólnopolska Konferencja Użytkowników R 2017 <br> Wydział Matematyki i Nauk Informacyjnych, Politechnika Warszawska <a href="https://www.google.pl/maps/place/Wydzia%C5%82+Matematyki+i+Nauk+Informacyjnych/@52.2222296,21.0067982,17z/data=!4m5!3m4!1s0x471eccec70946a39:0x69dbb30f57ca9d3a!8m2!3d52.2221573!4d21.0071308">Koszykowa 75</a></p>
+					<div class="col-6">
+						<div class="speakers-icon"></div>
+						<img src="">
+						<div class="who">
+							<h5>Imie nazwisko</h5>
+							<p>Co robi</p>
+							<p>lorem ipsum w dupe pipsum musi być tak, gdzies ze dwie linijki ghfghf tekst</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-6">
+						<div class="speakers-icon"></div>
+						<img src="">
+						<div class="who">
+							<h5>Imie nazwisko</h5>
+							<p>Co robi</p>
+							<p>lorem ipsum w dupe pipsum musi być tak, gdzies ze dwie linijki ghfghf tekst</p>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="speakers-icon"></div>
+						<img src="">
+						<div class="who">
+							<h5>Imie nazwisko</h5>
+							<p>Co robi</p>
+							<p>lorem ipsum w dupe pipsum musi być tak, gdzies ze dwie linijki ghfghf tekst</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-6">
+						<div class="speakers-icon"></div>
+						<img src="">
+						<div class="who">
+							<h5>Imie nazwisko</h5>
+							<p>Co robi</p>
+							<p>lorem ipsum w dupe pipsum musi być tak, gdzies ze dwie linijki ghfghf tekst</p>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="speakers-icon"></div>
+						<img src="">
+						<div class="who">
+							<h5>Imie nazwisko</h5>
+							<p>Co robi</p>
+							<p>lorem ipsum w dupe pipsum musi być tak, gdzies ze dwie linijki ghfghf tekst</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-6">
+						<div class="speakers-icon"></div>
+						<img src="">
+						<div class="who">
+							<h5>Imie nazwisko</h5>
+							<p>Co robi</p>
+							<p>lorem ipsum w dupe pipsum musi być tak, gdzies ze dwie linijki ghfghf tekst</p>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="speakers-icon"></div>
+						<img src="">
+						<div class="who">
+							<h5>Imie nazwisko</h5>
+							<p>Co robi</p>
+							<p>lorem ipsum w dupe pipsum musi być tak, gdzies ze dwie linijki ghfghf tekst</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-6">
+						<div class="speakers-icon"></div>
+						<img src="">
+						<div class="who">
+							<h5>Imie nazwisko</h5>
+							<p>Co robi</p>
+							<p>lorem ipsum w dupe pipsum musi być tak, gdzies ze dwie linijki ghfghf tekst</p>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="speakers-icon"></div>
+						<img src="">
+						<div class="who">
+							<h5>Imie nazwisko</h5>
+							<p>Co robi</p>
+							<p>lorem ipsum w dupe pipsum musi być tak, gdzies ze dwie linijki ghfghf tekst</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+	</section>
+	<!-- Licznik -->
+	<section>
+			<div class="statistics col-3">
+					<div class="statistics-content">
+					<h4><span class="timer" data-from="0" data-to="365" data-speed="5000"></span></h4>
+					<p>Mój licznik</p>
+					</div>
+				</div>
+				<div class="statistics col-3">
+					<div class="statistics-content">
+					<h4><span class="timer" data-from="70" data-to="888" data-speed="4000"></span></h4>
+					<p>Mój licznik</p>
+					</div>
+				</div>
+				<div class="statistics col-3">
+					<div class="statistics-content">
+					<h4><span class="timer" data-from="0" data-to="1200" data-speed="2000"></span></h4>
+					<p>Mój licznik</p>
+					</div>
+				</div>
+				<div class="statistics col-3">
+					<div class="statistics-content">
+					<h4><span class="timer" data-from="10" data-to="65" data-speed="8000"></span></h4>
+					<p>Mój licznik</p>
+					</div>
+				</div>
+	</section>
+	<!-- Program konferencji -->
+	<section>
+		<div class="wrapper">
+			<header>
+				<h4>Program</h4>
+				<h3>Content of conferencion</h3>
+			</header>
+			<div class="row">
+				<div class="col-4">Program</div>
+				<div class="col-4">Program</div>
+				<div class="col-4">Program</div>
+			</div>
+			<div class="row">
+				<div class="col-4">Program</div>
+				<div class="col-4">Program</div>
+				<div class="col-4">Program</div>
+			</div>
+		</div>
+	</section>
+	<!-- Sekcja ozdobniczo/przerwynikowa ze zdjęciem miejsca konferencji -->
+	<section class="place">
+		<div class="wrapper">
+			<header>
+				<h4>Program</h4>
+				<h3>Content of conferencion</h3>
+				<p>Ewentualny tekst</p>
+			</header>
+		</div>
+	</section>
+	<section class="workshop">
+		<div class="wrapper">
+			<h3>Warsztaty</h3>
+			<h4>Tematyka warsztatu</h4>
+			<h4>Tematyka warsztatu</h4>
+			<h4>Tematyka warsztatu</h4>
+			<h4>Tematyka warsztatu</h4>
+			<h4>Tematyka warsztatu</h4>
+			<h4>Tematyka warsztatu</h4>
+			<h4>Tematyka warsztatu</h4>
+			<h4>Tematyka warsztatu</h4>
+			<h4>Tematyka warsztatu</h4>
+			<h4>Tematyka warsztatu</h4>
+		</div>
+	</section>
+	<section class="citation">
+		<div class="wrapper">
+			<div class="owl-carousel">
+				<div> Your Content </div>
+				<div> Your Content </div>
+				<div> Your Content </div>
+				<div> Your Content </div>
+				<div> Your Content </div>
+				<div> Your Content </div>
+			</div>
+		</div>
+	</section>
+	<!-- Sekcja zawierająca sposorów -->
+	<section>
+		<div class="wrapper">
+			<header>
+				<h4>Komu to zawdzięczamy</h4>
+				<h3>Sponsorzy</h3>
+			</header>
+		</div>
+	</section>
+	<!-- Sekcja poświęcona organizatorom -->
+	<section>
+		<div class="wrapper">
+			<header>
+				<h4>Kim Jesteśmy?</h4>
+				<h3>Organizatorzy</h3>
+			</header>
+			<div class="galeria">
+				<div class="photo_container fade">
+				  <figure class="photo">
+				    <img src="" />
+				  </figure>
+				  <div class="description">
+				    <div class="photo_title">Imie i nazwisko</div>
+				    <p>ikony social </p>
+				  </div>
+				</div>
+				<div class="photo_container fade">
+				  <figure class="photo">
+				    <img src="" />
+				  </figure>
+				  <div class="description">
+				    <div class="photo_title">Imie i nazwisko</div>
+				    <p>ikony social </p>
+				  </div>
+				</div>
+				<div class="photo_container fade">
+				  <figure class="photo">
+				    <img src="" />
+				  </figure>
+				  <div class="description">
+				    <div class="photo_title">Imie i nazwisko</div>
+				    <p>ikony social </p>
+				  </div>
+				</div>
+				<div class="photo_container fade">
+				  <figure class="photo">
+				    <img src="" />
+				  </figure>
+				  <div class="description">
+				    <div class="photo_title">Imie i nazwisko</div>
+				    <p>ikony social </p>
+				  </div>
+				</div>
+				<div class="photo_container fade">
+				  <figure class="photo">
+				    <img src="" />
+				  </figure>
+				  <div class="description">
+				    <div class="photo_title">Imie i nazwisko</div>
+				    <p>ikony social </p>
+				  </div>
+				</div>
+				<div class="photo_container fade">
+				  <figure class="photo">
+				    <img src="" />
+				  </figure>
+				  <div class="description">
+				    <div class="photo_title">Imie i nazwisko</div>
+				    <p>ikony social </p>
+				  </div>
+				</div>
+				<div class="photo_container fade">
+				  <figure class="photo">
+				    <img src="" />
+				  </figure>
+				  <div class="description">
+				    <div class="photo_title">Imie i nazwisko</div>
+				    <p>ikony social </p>
+				  </div>
+				</div>
+				<div class="photo_container fade">
+				  <figure class="photo">
+				    <img src="" />
+				  </figure>
+				  <div class="description">
+				    <div class="photo_title">Imie i nazwisko</div>
+				    <p>ikony social </p>
+				  </div>
+				</div>
+				<div class="photo_container fade">
+				  <figure class="photo">
+				    <img src="" />
+				  </figure>
+				  <div class="description">
+				    <div class="photo_title">Imie i nazwisko</div>
+				    <p>ikony social </p>
+				  </div>
+				</div>
+				<div class="photo_container fade">
+				  <figure class="photo">
+				    <img src="" />
+				  </figure>
+				  <div class="description">
+				    <div class="photo_title">Imie i nazwisko</div>
+				    <p>ikony social </p>
+				  </div>
+				</div>
+				<div class="photo_container fade">
+				  <figure class="photo">
+				    <img src="" />
+				  </figure>
+				  <div class="description">
+				    <div class="photo_title">Imie i nazwisko</div>
+				    <p>ikony social </p>
+				  </div>
+				</div>
+				<div class="photo_container fade">
+				  <figure class="photo">
+				    <img src="" />
+				  </figure>
+				  <div class="description">
+				    <div class="photo_title">Imie i nazwisko</div>
+				    <p>ikony social </p>
+				  </div>
 				</div>
 			</div>
-			<div class="mainarea-content">
-				<div id="whyr" data-page="whyr" class="side-page side-left went-left">
-					<div class="container">
-						<h3 class="title"><b>Why R?</b></h3>
-						<ul class="services">
-							<li>
-								<img src="img/icons/promotion-icon.png" alt="" />
-								<p>
-									200 Uczestników
-								</p>
-							</li>
-							<li>
-								<img src="img/icons/web-desing-icon.png" alt="" />
-								<p>
-									Dzień Warsztatów <br>+ 2 Dni Wykładów
-								</p>
-							</li>
-							<li>
-								<img src="img/icons/photography-icon.png" alt="" />
-								<p>
-									Sesja Plakatowa
-								</p>
-							</li>
-						</ul>
-						<p><h3>Ogólnopolska Konferencja Użytkowników R <br> Warszawa, 27-29 Września 2017</h3>
-						</p>
-						<p> Ogólnopolska konferencja użytkowników R to spotkanie entuzjastów pakietu statystycznego R, zarówno z biznesu jak i środowiska akademickiego. To wydarzenie jest niepowtarzalną okazją na powiększenie wiedzy o R, udoskonalenie umiejętności analitycznych i programistycznych a także na poszerzenie kontaktów w polskim środowisku R. </p>
-						<p> Liczymy na wiele nowych wiadomości z metodologii badań i informacji z dziedziny rozwoju oprogramowania. Zapewniamy świetny program społecznościowy.</p>
-					</div>
-				</div>
-				<div id="organizers" data-page="organizers" class="side-page active">
-					<div class="container">
-						<ul class="services2">
-							<li>
-								<img src="img/people/marcin-crop.gif" alt="" width="90px" height="90px"/>
-								<p>
-								Marcin Kosiński
-									<ul class="social">
-										<li>
-											<a href="http://twitter.com/kosinski_rblog"><img src="img/icons/twitter-icon.png" alt="" /></a>
-										</li>
-										<li>
-											<a href="http://github.com/MarcinKosinski/"><img src="img/icons/github-logo.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="http://r-addict.com/"><img src="img/icons/globe.png" alt="" width="20px" height="20px"/></a>
-										</li>
-									</ul>
-								</p>
-							</li>
-							<li>
-								<img src="img/people/olga-crop.gif" alt="" width="90px" height="90px"/>
-								<p>
-								Olga Mierzwa<br>
-									<ul class="social">
-										<li>
-											<a href="https://twitter.com/olga_mie"><img src="img/icons/twitter-icon.png" alt="" /></a>
-										</li>
-										<li>
-											<a href="http://github.com/olgamie"><img src="img/icons/github-logo.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="https://www.linkedin.com/in/olga-mierzwa-84843539"><img src="img/icons/linkedin-sign.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-									</ul>
-								</p>
-							</li>
-							<li>
-								<img src="img/people/przemyslaw-crop.gif" alt="" width="90px" height="90px"/>
-								<p>
-								Przemysław Biecek
-									<ul class="social">
-										<li>
-											<a href="https://twitter.com/smarterpoland"><img src="img/icons/twitter-icon.png" alt="" /></a>
-										</li>
-										<li>
-											<a href="http://github.com/pbiecek/"><img src="img/icons/github-logo.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="http://biecek.pl/"><img src="img/icons/globe.png" alt="" width="20px" height="20px"/></a>
-										</li>
-									</ul>
-								</p>
-							</li>
-							<li>
-								<img src="img/people/maciej-crop.gif" alt="" width="90px" height="90px"/>
-								<p>
-								Maciej Beręsewicz
-									<ul class="social">
-										<li>
-											<a href="https://twitter.com/mberesewicz"><img src="img/icons/twitter-icon.png" alt="" /></a>
-										</li>
-										<li>
-											<a href="https://github.com/BERENZ"><img src="img/icons/github-logo.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="https://berenz.github.io/"><img src="img/icons/globe.png" alt="" width="20px" height="20px"/></a>
-										</li>
-									</ul>
-								</p>
-							</li>
-							<li>
-								<img src="img/people/bartosz-crop.gif" alt="" width="90px" height="90px"/>
-								<p>
-								Bartosz Sękiewicz
-									<ul class="social">
-										<li>
-											<a href="https://github.com/bsekiewicz"><img src="img/icons/github-logo.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="https://www.linkedin.com/in/bsekiewicz"><img src="img/icons/linkedin-sign.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="mailto:b.sekiewicz@erkakrakow.pl"><img src="img/icons/envelope.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-									</ul>
-								</p>
-							</li>
-							<li>
-								<img src="img/people/adolfo-crop.gif" alt="" width="90px" height="90px"/>
-								<p>
-								Adolfo Alvarez
-									<ul class="social">
-										<li>
-											<a href="https://twitter.com/adolfoalvarez"><img src="img/icons/twitter-icon.png" alt=""/></a>
-										</li>
-										<li>
-											<a href="https://github.com/adolfoalvarez"><img src="img/icons/github-logo.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="http://adolfoalvarez.cl/"><img src="img/icons/globe.png" alt="" width="20px" height="20px"/></a>
-										</li>
-									</ul>
-								</p>
-							</li>
-							<li>
-								<img src="img/people/alicja-crop.gif" alt="" width="90px" height="90px"/>
-								<p>
-								Alicja Gosiewska
-									<ul class="social">
-										<li>
-											<a href="https://github.com/Jusira"><img src="img/icons/github-logo.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="https://www.linkedin.com/in/alicja-gosiewska"><img src="img/icons/linkedin-sign.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="mailto:alicjagosiewska@gmail.com"><img src="img/icons/envelope.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-									</ul>
-								</p>
-							</li>
-							<li>
-								<img src="img/people/aleksandra-crop.gif" alt="" width="90px" height="90px"/>
-								<p>
-								Aleksandra Dąbrowska
-									<ul class="social">
-										<li>
-											<a href="https://github.com/AleksandraDabrowska"><img src="img/icons/github-logo.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="mailto:oll.dabrowska@gmail.com"><img src="img/icons/envelope.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-									</ul>
-								</p>
-							</li>
-							<li>
-								<img src="img/people/monika-crop.gif" alt="" width="90px" height="90px"/>
-								<p>
-								Monika Stępień
-									<ul class="social">
-										<li>
-											<a href="https://pl.linkedin.com/in/monika-stępień-a85b01116"><img src="img/icons/linkedin-sign.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="https://www.researchgate.net/profile/Monika_Stepien2"><img src="img/icons/globe.png" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="https://twitter.com/radiowaxglowa"><img src="img/icons/twitter-icon.png" alt="" /></a>
-										</li>
-									</ul>
-								</p>
-							</li>
-							<li>
-								<img src="img/people/agnieszka-crop.gif" alt="" width="90px" height="90px"/>
-								<p>
-								Agnieszka Dumania
-									<ul class="social">
-										<li>
-											<a href="https://www.linkedin.com/in/agnieszka-dumania-41294b76"><img src="img/icons/linkedin-sign.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="mailto:agnieszka.dumania@gmail.com"><img src="img/icons/envelope.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-									</ul>
-								</p>
-							</li>
-							<li>
-								<img src="img/people/bartek-crop.gif" alt="" width="90px" height="90px"/>
-								<p>
-								Bartłomiej Tartanus
-									<ul class="social">
-										<li>
-											<a href="https://twitter.com/bartektartanus"><img src="img/icons/twitter-icon.png" alt="" /></a>
-										</li>
-										<li>
-											<a href="https://pl.linkedin.com/in/bartlomiejtartanus"><img src="img/icons/linkedin-sign.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="http://stackoverflow.com/users/2125442/bartektartanus"><img src="img/icons/stack-overflow.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-									</ul>
-								</p>
-							</li>
-							<li>
-								<img src="img/people/anna-crop.gif" alt="" width="90px" height="90px"/>
-								<p>
-								Anna Rybińska
-									<ul class="social">
-										<li>
-											<a href="rybinska@qsar.eu.org"><img src="img/icons/envelope.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="https://pl.linkedin.com/in/anna-rybi%25C5%2584ska-2ba507115"><img src="img/icons/linkedin-sign.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="http://www.qsar.eu.org/"><img src="img/icons/globe.png" alt="" width="20px" height="20px"/></a>
-										</li>
-									</ul>
-								</p>
-							</li>
-							<li>
-								<img src="img/people/alicja_ru-crop.gif" alt="" width="90px" height="90px"/>
-								<p>
-								Alicja Raszkowska
-									<ul class="social">
-										<li>
-											<a href="https://github.com/trueskawka"><img src="img/icons/twitter-icon.png" alt="" /></a>
-										</li>
-										<li>
-											<a href="https://pl.linkedin.com/in/alicjaraszkowska"><img src="img/icons/linkedin-sign.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="https://trueskawka.github.io/"><img src="img/icons/globe.png" alt="" width="20px" height="20px"/></a>
-										</li>
-									</ul>
-								</p>
-							</li>
-	          </ul>
-						<ul class="services">
-							<li>
-								<p>Organizatorzy
-									<ul class="social2">
-										<li>
-											<a href="http://www.mini.pw.edu.pl">
-												<img src="img/logos/m_logo_120x120_2.png" alt="mini" />
-											</a>
-										</li>
-										<li>
-											<a href="https://www.pw.edu.pl">
-												<img src="img/logos/Logo_PW_negatyw.png" alt="pw" width="100px" height="100px"/>
-											</a>
-										</li>
-										<li>
-											<a href="http://datascience.mini.pw.edu.pl/">
-												<img src="img/logos/knds_logo_white-scaled.png" alt="sp" width="90px" height="100px"/>
-											</a>
-										</li>
-									</ul>
-								</p>
-							</li>
-							<li>
-								<p>Partnerzy Społecznościowi
-									<ul class="social2">
-										<li>
-											<a href="https://www.meetup.com/Spotkania-Entuzjastow-R-Warsaw-R-Users-Group-Meetup/">
-												<img src="img/logos/ser-transparent.png" alt="sp" width="80px" height="100px"/>
-											</a>
-										</li>
-										<li>
-											<a href="http://www.erkakrakow.pl/">
-												<img src="img/logos/erka_white_3.png" alt="sp" width="110px" height="100px"/>
-											</a>
-										</li>
-										<li>
-											<a href="https://www.meetup.com/Trojmiejska-Grupa-Entuzjastow-R/">
-												<img src="img/logos/triger.png" alt="sp" width="105px" height="80px"/>
-											</a>
-										</li>
-										<li>
-											<a href="http://www.stwur.pl/">
-												<img src="img/logos/stwur_trans.png" alt="sp" width="105px" height="100px"/>
-											</a>
-										</li>
-										<li>
-											<a href="http://smarterpoland.pl">
-												<img src="img/logos/smarterpoland_logo_white.png" alt="sp" width="100px" height="100px"/>
-											</a>
-										</li>
-										<li>
-											<a href="http://szychtawdanych.pl/">
-												<img src="img/logos/szychta.png" alt="sp" width="100px" height="100px"/>
-											</a>
-										</li>
-										<li>
-											<a href="https://www.meetup.com/Data-Science-Warsaw/">
-												<img src="img/logos/DSW_transparent.png" alt="sp" width="100px" height="100px"/>
-											</a>
-										</li>
-										<li>
-											<a href="http://tableaupoland.com/">
-												<img src="img/logos/tableau.png" alt="sp" width="100px" height="100px"/>
-											</a>
-										</li>
-									</ul>
-								</p>
-							</li>
-						</ul>
-					</div>
-				</div>
-
-				<div id="schedule" data-page="schedule" class="side-page side-right went-right">
-					<div class="container">
-						<h3 class="title"><b>Harmonogram</b></h3>
-						<p>
-						<table style="width:100%">
-						  <tr>
-						    <th><p><b>15.01.2017</b></p>	</th>
-								<th><p><b>Rozpoczęcie przyjmowania zgłoszeń na propozycje warsztatów <a href="https://goo.gl/forms/jbICwb5H6f09dNlz1">LINK</a></b></p>	</th>
-						  </tr>
-							<tr>
-								<th><p><b>15.02.2017</b></p>	</th>
-								<th><p><b>Koniec przyjmowania zgłoszeń na propozycje warsztatów</b></p>	</th>
-							</tr>
-							<tr>
-							</tr>
-							<tr>
-								<th><p><b>22.02.2017</b></p>	</th>
-								<th><p><b>Ogłoszenie przyjętych warsztatów</b></p>	</th>
-							</tr>
-							<tr>
-							</tr>
-							<tr>
-								<th><p><b>01.03.2017</b></p>	</th>
-								<th><p><b>Początek rejestracji na konferencję i na warsztaty</b></p>	</th>
-							</tr>
-							<tr>
-							</tr>
-							<tr>
-								<th><p><b>01.06.2017</b></p>	</th>
-								<th><p><b>Zamknięcie rejestracji</b></p>	</th>
-							</tr>
-							<tr>
-							</tr>
-							<tr>
-								<th><p><b>26.09.2017</b></p>	</th>
-								<th><p><b>Hackathon</b></p>	</th>
-							</tr>
-							<tr>
-								<th><p><b>27.09.2017</b></p>	</th>
-								<th><p><b>Warsztaty</b></p>	</th>
-							</tr>
-							<tr>
-								<th><p><b>28-29.09.2017</b></p>	</th>
-								<th><p><b>Konferencja</b></p>	</th>
-							</tr>
-						</table>
-					</p>
-					</div>
-				</div>
+		</div>
+	</section>
+	<!-- Partnerzy społecznościowi -->
+	<section>
+		<div class="wrapper">
+			<header>
+				<h4>Nasze wsparcie</h4>
+				<h3>Partnerzy Socjalni</h3>
+			</header>
+			<div class="row">
+				<div class="col-3"></div>
+				<div class="col-3"></div>
+				<div class="col-3"></div>
+				<div class="col-3"></div>
 			</div>
-			<a class="close" href="#"><img alt="" src="img/close.png"></a>
-		</section>
-		<section class="social-container">
-		  <ul class="social">
-		    <li>
-		      <a href="https://twitter.com/whyRconf"><img src="img/icons/twitter-icon.png" alt="" /></a>
-		    </li>
-		    <li>
-		      <a href="http://github.com/whyR-conference/"><img src="img/icons/github-logo.svg" alt="" width="20px" height="20px"/></a>
-		    </li>
-		    <li>
-		      <a href="https://www.facebook.com/whyRconf"><img src="img/icons/facebook-icon.png" alt="" /></a>
-		    </li>
-		  </ul>
-		</section>
-
-
-		<script src="js/vendor/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/vendor/classie.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/vendor/jquery.easing.1.3.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/vendor/jquery.tubular.1.0.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/vendor/jquery.cycle.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/plugins.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
-
-
-		<script src="clock/js/svg.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="clock/js/svg.easing.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="clock/js/svg.clock.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/vendor/ThreeWebGL.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/vendor/ThreeExtras.js" type="text/javascript" charset="utf-8"></script>
-		<script src="clock/js/jquery.timers.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="clock/js/clock.js" type="text/javascript" charset="utf-8"></script>
-
-
-
-	</body>
+			<div class="row">
+				<div class="col-3"></div>
+				<div class="col-3"></div>
+				<div class="col-3"></div>
+				<div class="col-3"></div>
+			</div>
+		</div>
+	</section>
+	<section class="stuff">
+		<header>
+			<h4>Materiały</h4>
+			<h3>Marteriały</h3>
+		</header>
+		<div class="staff-container">
+	<!-- Tak samo jak organizatorzy tylko usunąć w .photo_container.fade margin: auto; oraz transform rotate-->
+		<div class="photo_container fade">
+		<!-- być może trzeba bedzie dac klase photo-stuff oraz staff_container-->
+  			<figure class="photo"> 
+    			<img src="" />
+  			</figure>
+  			<div class="description">
+	    		<div class="photo_title">Temat materiału</div>
+	    		<p></p>
+  			</div>
+ 		</div>
+ 		<div class="photo_container fade">
+		<!-- być może trzeba bedzie dac klase photo-stuff oraz staff_container-->
+  			<figure class="photo"> 
+    			<img src="" />
+  			</figure>
+  			<div class="description">
+	    		<div class="photo_title">Temat materiału</div>
+	    		<p>ikony social/link</p>
+  			</div>
+ 		</div>
+ 		<div class="photo_container fade">
+		<!-- być może trzeba bedzie dac klase photo-stuff oraz staff_container-->
+  			<figure class="photo"> 
+    			<img src="" />
+  			</figure>
+  			<div class="description">
+	    		<div class="photo_title">Temat materiału</div>
+	    		<p>ikony social/link</p>
+  			</div>
+ 		</div>
+ 		<div class="photo_container fade">
+		<!-- być może trzeba bedzie dac klase photo-stuff oraz staff_container-->
+  			<figure class="photo"> 
+    			<img src="" />
+  			</figure>
+  			<div class="description">
+	    		<div class="photo_title">Temat materiału</div>
+	    		<p>ikony social/link</p>
+  			</div>
+ 		</div>
+ 		<div class="photo_container fade">
+		<!-- być może trzeba bedzie dac klase photo-stuff oraz staff_container-->
+  			<figure class="photo"> 
+    			<img src="" />
+  			</figure>
+  			<div class="description">
+	    		<div class="photo_title">Temat materiału</div>
+	    		<p>ikony social/link</p>
+  			</div>
+ 		</div>
+ 		<div class="photo_container fade">
+		<!-- być może trzeba bedzie dac klase photo-stuff oraz staff_container-->
+  			<figure class="photo"> 
+    			<img src="" />
+  			</figure>
+  			<div class="description">
+	    		<div class="photo_title">Temat materiału</div>
+	    		<p>ikony social/link</p>
+  			</div>
+ 		</div>
+ 		<div class="photo_container fade">
+		<!-- być może trzeba bedzie dac klase photo-stuff oraz staff_container-->
+  			<figure class="photo"> 
+    			<img src="" />
+  			</figure>
+  			<div class="description">
+	    		<div class="photo_title">Temat materiału</div>
+	    		<p>ikony social/link</p>
+  			</div>
+ 		</div>
+ 		<div class="photo_container fade">
+		<!-- być może trzeba bedzie dac klase photo-stuff oraz staff_container-->
+  			<figure class="photo"> 
+    			<img src="" />
+  			</figure>
+  			<div class="description">
+	    		<div class="photo_title">Temat materiału</div>
+	    		<p>ikony social/link</p>
+  			</div>
+ 		</div>
+ 		</div>
+	</section>
+	<section>
+		<div class="wrapper">
+			<header>
+				<h4>Sprawdź nas</h4>
+				<h3>Nasz Blog</h3>
+			</header>
+			<div class="row">
+				<div class="col-6"><img src=""></div>
+				<div class="col-6"></div>
+			</div>
+		</div>
+	</section>
+	<section class="price">
+		<div class="wrapper">
+			<header>
+				<h4>Jak tanio kosztuje wstęp?</h4>
+				<h3>Cennik</h3>
+			</header>
+			
+				<div class="row">
+					<div class="col-6"></div>
+					<div class="col-6"></div>
+				</div>
+		</div>
+	</section>
+	<footer>
+		<div class="wrapper">
+			<div class="row">
+				<div class="col-9"></div>
+				<div class="col-3">&copy; 2017 | <a href="https://github.com/EmilBuszylo">Emil Buszyło</a></div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/jq-menu.js" ></script>
+</body>
 </html>

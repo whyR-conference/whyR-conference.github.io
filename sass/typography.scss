@@ -1,0 +1,41 @@
+h4 {
+	font-family: $secondary-heading;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+h2 {
+	font-family: $secondary-heading;
+	font-weight: 600;
+	font-size: 32px;
+}
+
+h3 {
+	font-family: $primary-heading;
+	font-weight: 700;
+	font-size: 24px;
+}
+
+h1 {
+	font-family: $primary-heading;
+	font-weight: 700;
+	font-size: 75px;
+}
+
+p {
+	font-family: $text;
+	font-weight: 300;
+	font-size: 15px;
+}
+
+li {
+	font-family: $primary-heading;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+a {
+	color: $icon-color;
+	border: none;
+	text-decoration: uppercase;
+}
