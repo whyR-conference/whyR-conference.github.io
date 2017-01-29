@@ -11,45 +11,47 @@
 	<link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 	<!-- Style -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Owl carusel -->
+ 	<link rel="stylesheet"  href="css/owl.carousel.css">
+	<link rel="stylesheet"  href="css/owl.theme.default.css">
 	<!-- JQ -->
 	<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/jquery-migrate-3.0.0.js" integrity="sha256-lsVOB+3Yhm6He5MkTO3Bw/Xw4NXK7wYYTi1Y+M/2PrM=" crossorigin="anonymous"></script>
+
 </head>
 <body>
 	<div class="top">
 		<div class="wrapper">
 			<div class="navbar">
-    <div class="main-menu">
-        <div class="mobile-toggle">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <nav>
-            <ul>
-               <li><a href="#">Why R?</a></li>
-						<li><a href="#">Mówcy</a></li>
-						<li><a href="#">Program</a></li>
-						<li><a href="#">Warsztaty</a></li>
-						<li><a href="#">Sponsorzy</a></li>
-						<li><a href="#">Organizatorzy</a></li>
-						<li><a href="#">Partnerzy</a></li>
-						<li><a href="#">Materiały</a></li>
-						<li><a href="#">Cena</a></li>
-            </ul>
-        </nav>
-
-    </div> <!-- / row -->
-
-</div>
-			<div class="first-title">
-			<h2>Konferencja</h2>
-			<h1>Why R</h1>
+    			<div class="main-menu">
+        			<div class="mobile-toggle">
+			            <span></span>
+			            <span></span>
+			            <span></span>
+        			</div>
+        			<nav>
+            			<ul>
+	               			<li><a href="#">Why R?</a></li>
+							<li><a href="#">Mówcy</a></li>
+							<li><a href="#">Program</a></li>
+							<li><a href="#">Warsztaty</a></li>
+							<li><a href="#">Sponsorzy</a></li>
+							<li><a href="#">Organizatorzy</a></li>
+							<li><a href="#">Partnerzy</a></li>
+							<li><a href="#">Materiały</a></li>
+							<li><a href="#">Cena</a></li>
+            			</ul>
+        			</nav>
+   		 		</div> <!-- / Main-menu -->
 			</div>
-			<div class="register-bar">
-			<a href="#">Zarejestruj się!</a>
-			</div>
-		</div>
+				<div class="first-title">
+					<h2>Konferencja</h2>
+					<h1>Why R</h1>
+				</div>
+				<div class="register-bar">
+					<a href="#">Zarejestruj się!</a>
+				</div>
+	</div>
 	</div>
 	<!-- Sekcja o konferencji -->
 	<section class="about">
@@ -58,24 +60,26 @@
 				<h4>Why R</h4>
 				<h3>Why R</h3>
 			</header>
-				<div class="owl-carousel">
+				<div class="owl-carousel owl-theme">
+					  <div class="slider-item"><img src="img/rain-bg.jpg"></div>
+					  <div class="slider-item"><img src="img/singleimg.jpg"></div>
+					  <div class="slider-item"><img src="img/singleimg123.jpg"></div>
+					  <div class="slider-item"><img src="img/bg-change.jpg"></div>
+					  <div class="slider-item"><img src="img/singleimg.jpg"></div>
+					  <div class="slider-item"><img src="img/singleimg123.jpg"></div>
+					  <!--<div> Your Content </div>
 					  <div> Your Content </div>
 					  <div> Your Content </div>
 					  <div> Your Content </div>
 					  <div> Your Content </div>
 					  <div> Your Content </div>
 					  <div> Your Content </div>
-					  <div> Your Content </div>
-					  <div> Your Content </div>
-					  <div> Your Content </div>
-					  <div> Your Content </div>
-					  <div> Your Content </div>
-					  <div> Your Content </div>
+					  <div> Your Content </div>-->
 				</div>
 			</div>
 	</section>
 	<!-- Sekcja o mówcach -->
-	<section>
+	<section class="speakers">
 	<div class="wrapper">
 			<header>
 				<h4>Speakers</h4>
@@ -83,8 +87,13 @@
 			</header>
 				<div class="row">
 					<div class="col-6">
-						<div class="speakers-icon"></div>
-						<img src="">
+						<div class="speakers-icon">
+							<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+							<i class="fa fa-globe" aria-hidden="true"></i>
+							<i class="fa fa-twitter-square" aria-hidden="true"></i>
+
+						</div>
+						<img src="img/who.png">
 						<div class="who">
 							<h5>Imie nazwisko</h5>
 							<p>Co robi</p>
@@ -92,8 +101,13 @@
 						</div>
 					</div>
 					<div class="col-6">
-						<div class="speakers-icon"></div>
-						<img src="">
+						<div class="speakers-icon">
+							<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+							<i class="fa fa-globe" aria-hidden="true"></i>
+							<i class="fa fa-twitter-square" aria-hidden="true"></i>
+
+						</div>
+						<img src="img/who.png">
 						<div class="who">
 							<h5>Imie nazwisko</h5>
 							<p>Co robi</p>
@@ -538,6 +552,8 @@
 			</div>
 		</div>
 	</footer>
-	<script src="js/jq-menu.js" ></script>
+	<script src="js/main.js"></script>
+	<script src="js/jq-menu.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
 </body>
 </html>

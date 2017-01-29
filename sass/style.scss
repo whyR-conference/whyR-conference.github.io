@@ -20,11 +20,56 @@ body {
   height: 100%;
 }
 
+// Menu, nagłówek, tło, register bar
 .top {
 	background-image: url('http://www.warsawtour.pl/sites/default/files/panorama_warszawy2_fot._z_archiwum_warszawskiej_organizacji_turystycznej.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	max-width: 100%;
-	min-height: 900px;
+	height: 700px;
+  @media #{$tablet}{
+    height: 100%;
+
+  }
+}
+  .first-title {
+    padding-top: 200px;
+  }
+
+  .register-bar {
+    padding-top: 120px;
+  a {
+    padding: 20px;
+    @include regist-btn(80px, 40px);
+  }
+
 }
 
+// Sekcja About 
+
+
+
+.slider-item {
+img {
+  min-height: 300px;;
+}
+}
+
+// Speakers section
+
+.speakers {
+  background-image: url('../img/bg3-light.png');
+  margin-bottom: 45px;
+
+  img {
+    max-width:100px;
+    float: left;
+   
+  }
+}
+
+.speakers-icon{
+  @include icons();
+  margin: 0 auto;
+  transition: all 1s linear;
+}

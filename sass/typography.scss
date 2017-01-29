@@ -8,6 +8,10 @@ h2 {
 	font-family: $secondary-heading;
 	font-weight: 600;
 	font-size: 32px;
+	color: #FFFFFF;
+	@media #{$tablet} {
+		font-size: 64px;
+	}
 }
 
 h3 {
@@ -20,6 +24,10 @@ h1 {
 	font-family: $primary-heading;
 	font-weight: 700;
 	font-size: 75px;
+	color: #FFFFFF;
+	@media #{$tablet} {
+		font-size: 150px;
+	}
 }
 
 p {
@@ -38,4 +46,20 @@ a {
 	color: $icon-color;
 	border: none;
 	text-decoration: uppercase;
+}
+
+header {
+	text-align: center;
+	margin-top: 45px;
+	margin-bottom: 45px;
+	line-height: 50px;
+	@media #{$tablet}{
+		h3 {
+			font-size: 2em;
+		}
+		h4 {
+			font-size: 2em;
+		}
+	}
+
 }

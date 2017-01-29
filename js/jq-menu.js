@@ -1,3 +1,5 @@
+$(document).ready(function(){
+
 $(window).scroll(function() {
 
     if ($(window).scrollTop() > 200) {
@@ -32,4 +34,6 @@ $('nav a').click(function(event) {
         scrollTop: target
     }, 500);
     event.preventDefault();
+});
+
 });

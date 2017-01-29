@@ -1,7 +1,6 @@
 @mixin regist-btn($width, $height) {
 	width: $width;
 	height: $height;
-	line-height: $height;
 	border: 3px solid $bg-color;
 	background-color: transparent;
 	color: $bg-color;
@@ -10,7 +9,7 @@
 }
 
 @mixin icons(){
-	color: $icon-color;
+	// color: $icon-color;
 	background-color: transparent;
 	transition: all 0.5s ease-in-out;
 }

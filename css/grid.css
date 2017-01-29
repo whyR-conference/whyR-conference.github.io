@@ -1,0 +1,81 @@
+.wrapper:after,
+.row:after {
+  *zoom: 1; }
+  .wrapper:after,
+  .row:after {
+    content: '';
+    display: table; }
+  .wrapper:after,
+  .row:after {
+    clear: both; }
+
+*, *:after, *:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto !important; }
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center; }
+
+.row {
+  width: 100%; }
+
+[class*='col-'] {
+  float: left;
+  padding: 1em;
+  width: 100%;
+  min-height: 1px;
+  margin: 5px;
+  background: pink; }
+
+@media only screen and (min-width: 50em) {
+  .wrapper {
+    max-width: 75em; }
+
+  .col-1 {
+    width: 7.69231%; }
+
+  .col-2 {
+    width: 15.38462%; }
+
+  .col-3 {
+    width: 23.07692%; }
+
+  .col-4 {
+    width: 30.76923%; }
+
+  .col-5 {
+    width: 38.46154%; }
+
+  .col-6 {
+    width: 46.15385%; }
+
+  .col-7 {
+    width: 53.84615%; }
+
+  .col-8 {
+    width: 61.53846%; }
+
+  .col-9 {
+    width: 69.23077%; }
+
+  .col-10 {
+    width: 76.92308%; }
+
+  .col-11 {
+    width: 84.61538%; }
+
+  .col-12 {
+    width: 92.30769%; }
+
+  .col-13 {
+    width: 100%; } }
+
+/*# sourceMappingURL=grid.css.map */

@@ -5,7 +5,7 @@
 
 // Sass Variables
 
-$grid-columns: 13;
+$grid-columns: 12;
 $max-width: em(1200);
 
 $breakpoint-medium: 'only screen and(min-width: 50em)';
@@ -42,10 +42,11 @@ img{
 .wrapper{
   width: 100%;
   margin: 0 auto;
-  text-align: center;
+
 }
 .row{
   width: 100%;
+
 }
 .wrapper:after,
 .row:after{
@@ -56,7 +57,7 @@ img{
   padding: 1em;
   width: 100%;
   min-height: 1px;
-  margin: 5px;
+  margin: 0;
   background: pink;
 }
 
