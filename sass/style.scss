@@ -73,3 +73,58 @@ img {
   margin: 0 auto;
   transition: all 1s linear;
 }
+
+// Sekcja programu konferencji
+.program {
+  i {
+    font-size: 35px;
+    margin-right: 15px;
+    float: left;
+  }
+  p {
+    margin-left: 50px;
+  }
+    .line {
+      padding-bottom: 50px;
+      border-bottom: 1px solid $heading-color;;
+      
+    }
+  }
+
+  // sekcja z miejscem wydziału
+.place {
+    min-width: 100%;
+    height: 600px;
+    background-image: url('../img/singleimg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+      @media #{$tablet} {
+        height: 900px;
+      }
+      header {
+        position: relative;
+        top: 300px;
+        color: $icon-color;
+      }
+
+  }
+
+  // Warsztaty
+.workshop {
+  text-align: center;
+  .work{
+    h4 {
+      line-height: 40px;
+      transition:  all 0.5s ease-in-out;
+      cursor: pointer;
+      &:hover {
+        color: $accent-color;
+        }
+      }
+    }
+}
+
+  .work-content {
+  display: none;
+}

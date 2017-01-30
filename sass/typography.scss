@@ -1,7 +1,17 @@
+h5 {
+	font-family: $secondary-heading;
+	font-weight: 600;
+	font-size: 20px;
+	color: $heading-color;
+}
+
+
+
 h4 {
 	font-family: $secondary-heading;
 	font-weight: 600;
 	font-size: 20px;
+	color: $heading-color;
 }
 
 h2 {
@@ -31,9 +41,13 @@ h1 {
 }
 
 p {
+	color: $heading-color;
 	font-family: $text;
 	font-weight: 300;
 	font-size: 15px;
+	@media #{$phone} {
+		font-size: 16px;
+	}
 }
 
 li {
@@ -49,6 +63,7 @@ a {
 }
 
 header {
+	color: $heading-color;
 	text-align: center;
 	margin-top: 45px;
 	margin-bottom: 45px;

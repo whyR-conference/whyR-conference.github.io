@@ -1,7 +1,5 @@
 $(document).ready(function(){
 
-	
-
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
@@ -29,6 +27,11 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
+$(function() {
+    $("h4").click(function(event) {
+  $(this).closest(".work").find('.work-content').slideToggle(1000);
+    });
+});
 
 
 
