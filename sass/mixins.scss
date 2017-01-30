@@ -41,3 +41,11 @@
     transform: scale(0.7);
     width: $width;
 }
+
+// Transition mixin!!
+@mixin bs-transition($time, $type) {
+	-moz-transition: all $time $type;
+    -ms-transition: all $time $type;
+    -webkit-transition: all $time $type;
+    transition: all $time $type;
+}

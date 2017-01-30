@@ -34,5 +34,15 @@ $(function() {
 });
 
 
+  $('.bxslider').bxSlider({
+  	auto: true,
+  	pager: false,
+  	mode: 'horizontal',
+  	speed: 3000
+  });
+
+
+
+
 
 });
