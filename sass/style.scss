@@ -109,9 +109,10 @@ img {
         height: 900px;
       }
       header {
-        position: relative;
-        top: 300px;
-        color: $icon-color;
+        padding-top: 300px;
+        h4, h3, p {
+          color: $icon-color;
+        }
       }
 
   }
@@ -121,7 +122,7 @@ img {
   text-align: center;
   .work{
     h4 {
-      line-height: 40px;
+      padding: 20px 0 20px 0;
        @include bs-transition(0.4s, ease-in-out);
       cursor: pointer;
       &:hover {
@@ -216,12 +217,12 @@ img {
     .photo_title {
       border-bottom: 4px solid #fff;
       font-family: 'Sue Ellen Francisco', serif;
-      font-size: 24px;
+      font-size: 1.5em;
       margin: 0 10px 5px 10px;
       padding-bottom: 10px;
     }
     i {
-      font-size: 20px;
+      font-size: 2em;
       margin: 0 0 0 5px;
       padding: 5px;
     }
@@ -248,19 +249,28 @@ img {
 @for $i from 1 through 10 {
  
   .item:nth-child(#{$i}) {
-    background-image: url('../img/stuf/image-#{$i}.jpg');
+    background-image: url('../img/stuff/image-#{$i}.jpg');
     background-repeat: none;
     background-size: cover;
-    min-width: 300px;
-    min-height: 200px;
+    min-width: 100%;
+    min-height: 300px;
     margin: 0;
-    padding: 0;
-  
+    text-align: center;
+    @media #{$customD}{
+      min-width: 20%;
+    }
+    
   a {
-    opacity:1;
+    opacity:0;
+    @include bs-transition(0.5s, ease);
+    @include scale-transform(0.7);
   }
   &:hover a {
     opacity: 1;
+     -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    -webkit-transform: scale(2);
+    transform: scale(2);
   }
 }
 }

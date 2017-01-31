@@ -49,3 +49,18 @@
     -webkit-transition: all $time $type;
     transition: all $time $type;
 }
+
+@mixin vertical-align() {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+@mixin scale-transform($scale) {
+	 position: absolute;
+	-moz-transform: $scale;
+    -ms-transform: $scale;
+    -webkit-transform: $scale;
+    transform: $scale;
+}
