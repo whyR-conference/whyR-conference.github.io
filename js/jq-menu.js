@@ -1,8 +1,12 @@
 $(document).ready(function(){
 
 $(window).scroll(function() {
+    
+         var $window = $(window),
+       $stickyEl = $('.about'),
+       top = $stickyEl.offset().top;
 
-    if ($(window).scrollTop() > 200) {
+    if ($(window).scrollTop()  > top) {
         $('.navbar').addClass('sticky');
     } else {
         $('.navbar').removeClass('sticky');

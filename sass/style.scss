@@ -12,14 +12,12 @@ html {
   width: 100%;
   margin: 0 auto;
 }
-
 body {
   width: 100%;
   margin: 0 auto;
   padding: 0;
   height: 100%;
 }
-
 // Menu, nagłówek, tło, register bar
 .top {
 	background-image: url('http://www.warsawtour.pl/sites/default/files/panorama_warszawy2_fot._z_archiwum_warszawskiej_organizacji_turystycznej.jpg');
@@ -29,26 +27,29 @@ body {
 	height: 700px;
   @media #{$tablet}{
     height: 100%;
-
   }
 }
   .first-title {
     padding-top: 200px;
+    padding-left: 50px;
   }
 
   .register-bar {
+    text-align: center;
     padding-top: 120px;
   a {
     padding: 20px;
     @include regist-btn(80px, 40px);
+    box-shadow: 0 0 0 #FFF;
+    @include bs-transition(0.5s, linear);
+    &:hover {
+      box-shadow: 0 0 10px #FFF;
+      color: $accent-color;
+      background-color: $bg-color;
+    }
   }
-
 }
-
 // Sekcja About 
-
-
-
 .slider-item {
 img {
   min-height: 300px;;
@@ -56,30 +57,44 @@ img {
 }
 
 // Speakers section
-
 .speakers{
   background-image: url('../img/bg3-light.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-bottom: 45px;
 }
 .speaker{
   img {
     max-width:100px;
     float: left;
-   
+    margin-right: 10px; 
   }
-
-
-.speakers-icon{
+  .speakers-icon{
   @include icons();
   margin: 0 auto;
-   @include bs-transition(1s, linear);
-   opacity: 0;
-}
-&:hover .speakers-icon {
+  @include bs-transition(1s, linear);
+  opacity: 0;
+  }
+  &:hover .speakers-icon {
   opacity: 1;
+  }
+  a{
+    color: $accent-color;
+  }
 }
+// Conunt To 
+.count{
+  text-align: center;
+  background-color: $accent-color;
+  p {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+  }
+  h4 {
+    padding-bottom: 20px;
+    font-size: 2.2em
+  }
 }
-
 // Sekcja programu konferencji
 .program {
   i {
@@ -106,7 +121,7 @@ img {
     background-position: center;
     background-size: cover;
       @media #{$tablet} {
-        height: 900px;
+        height: 800px;
       }
       header {
         padding-top: 300px;
@@ -138,25 +153,40 @@ img {
 
 // Citation slider
 .citation {
+  width: 100%;
+  margin: 0 auto;
   padding-top: 100px;
   padding-bottom: 55px;
   text-align: center;
+  i {
+    font-size: 5em;
+    color: $accent-color;
+  }
+  p {
+    font-size: 1em;
+    font-weight: 300;
+    text-decoration: cursive;
+  }
+ 
 }
 
 // Sponsorzy
-.sponsors {
-  text-align: center;
-  :first-child {
-        color: #e5e4e2;
-        padding: 25px 0;
-  }
-  :nth-child(2) {
-    color:#cea128;
-    padding: 25px 0;
-  }
-  :nth-child(3) {
-   color:#cccac6;
-   padding: 25px 0;
+.sponsoring {
+  background-color: $accent-color;
+  .sponsors {
+    text-align: center;
+    :first-child {
+          color: #e5e4e2;
+          padding: 25px 0;
+    }
+    :nth-child(2) {
+      color:#cea128;
+      padding: 25px 0;
+    }
+    :nth-child(3) {
+     color:#cccac6;
+     padding: 25px 0;
+    }
   }
 }
 
@@ -170,17 +200,18 @@ img {
 }
 
 .photo_container.fade {
-  margin: 15px 50px;   //auto;
+  margin: 15px 0px;   //auto;
   overflow: hidden;
   position: relative;
-  width: 200px;
+  width: 180px;
   * {
      @include bs-transition(0.5s, ease);
   }
   img {
     margin: -17px 0 -40px -40px;
     max-width: 300px;
-    min-height: 300px;
+    min-height: 280px;
+    max-height: 280px;
   } a {
     @include bs-transition(0.2s, linear);
   &:hover {
@@ -215,7 +246,7 @@ img {
   }
   .description {
     .photo_title {
-      border-bottom: 4px solid #fff;
+     // border-bottom: 4px solid #fff;
       font-family: 'Sue Ellen Francisco', serif;
       font-size: 1.5em;
       margin: 0 10px 5px 10px;
@@ -229,14 +260,25 @@ img {
   }
 }
 // rotacja zdjęć
- .photo_container {
+ /*.photo_container {
    &:nth-child(even) {
     transform: rotate(-2deg) scale(1);
   }
  &:nth-child(odd) {
     transform: rotate(2deg) scale(1);
   }
+  } */
+// Partnerzy
+.partners {
+  background-color: $accent-color;
+  img {
+    max-height: 200px;
   }
+}
+
+
+
+
 // Materiały, pętla w sass wrzuca zdjęcia div
 .stuff-img {
   margin: 0 auto;
@@ -246,7 +288,7 @@ img {
   justify-content: space-around; 
 
 
-@for $i from 1 through 10 {
+@for $i from 1 through 8 {
  
   .item:nth-child(#{$i}) {
     background-image: url('../img/stuff/image-#{$i}.jpg');
@@ -257,7 +299,7 @@ img {
     margin: 0;
     text-align: center;
     @media #{$customD}{
-      min-width: 20%;
+      min-width: 25%;
     }
     
   a {
@@ -271,8 +313,14 @@ img {
     -ms-transform: scale(2);
     -webkit-transform: scale(2);
     transform: scale(2);
+      }
+    }
   }
-}
-}
-
 } 
+
+footer{
+  a{
+  margin-left: 5px;
+  color: $heading-color;
+}
+}

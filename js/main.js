@@ -33,6 +33,7 @@ $(function() {
     });
 });
 
+$('.timer').countTo();
 
   $('.bxslider').bxSlider({
   	auto: true,
