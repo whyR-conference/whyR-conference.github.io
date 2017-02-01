@@ -34,7 +34,9 @@
 
 ## Cytaty 
 
-- Znak po lewej obok cytatu, nie nad cytatem. Proszę usuń `>`. Proszę dostosuj czcionkę do Mogo.
+- Znak po lewej obok cytatu, nie nad cytatem. Proszę dostosuj czcionkę do Mogo.
+- Tutaj jakoś tytuł inaczej wygląda niż w innych sekcjach.
+- Da się wdyłużyć dwukrotnie czas wyświetlania każdego cytatu?
 
 ## Organizatorzy 
 
