@@ -1,17 +1,17 @@
 /*
 Error: Undefined variable: "$secondary-heading".
-        on line 2 of D:\makiety\whyR\sass\typography.scss
+        on line 2 of D:\whyR-conference.roboczy2\sass\typography.scss
 
-1: h4 {
+1: h5 {
 2: 	font-family: $secondary-heading;
 3: 	font-weight: 600;
-4: 	font-size: 20px;
-5: }
-6: 
-7: h2 {
+4: 	font-size: 1.3em;
+5: 	color: $heading-color;
+6: }
+7: 
 
 Backtrace:
-D:\makiety\whyR\sass\typography.scss:2
+D:\whyR-conference.roboczy2\sass\typography.scss:2
 E:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/script/tree/variable.rb:49:in `_perform'
 E:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/script/tree/node.rb:50:in `perform'
 E:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:384:in `visit_prop'
@@ -58,4 +58,4 @@ E:/Program Files (x86)/Koala/bin/sass:18:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$secondary-heading\".\A         on line 2 of D:\makiety\whyR\sass\typography.scss\A \A 1: h4 {\A 2: 	font-family: $secondary-heading;\A 3: 	font-weight: 600;\A 4: 	font-size: 20px;\A 5: }\A 6: \A 7: h2 {"; }
+  content: "Error: Undefined variable: \"$secondary-heading\".\A         on line 2 of D:\whyR-conference.roboczy2\sass\typography.scss\A \A 1: h5 {\A 2: 	font-family: $secondary-heading;\A 3: 	font-weight: 600;\A 4: 	font-size: 1.3em;\A 5: 	color: $heading-color;\A 6: }\A 7: "; }

@@ -17,12 +17,11 @@
 img {
   width: auto;
   max-width: 100%;
-  height: auto !important; }
+  height: auto; }
 
 .wrapper {
   width: 100%;
-  margin: 0 auto;
-  text-align: center; }
+  margin: 0 auto; }
 
 .row {
   width: 100%; }
@@ -32,50 +31,46 @@ img {
   padding: 1em;
   width: 100%;
   min-height: 1px;
-  margin: 5px;
-  background: pink; }
+  margin: 0; }
 
 @media only screen and (min-width: 50em) {
   .wrapper {
     max-width: 75em; }
 
   .col-1 {
-    width: 7.69231%; }
+    width: 8.33333%; }
 
   .col-2 {
-    width: 15.38462%; }
+    width: 16.66667%; }
 
   .col-3 {
-    width: 23.07692%; }
+    width: 25%; }
 
   .col-4 {
-    width: 30.76923%; }
+    width: 33.33333%; }
 
   .col-5 {
-    width: 38.46154%; }
+    width: 41.66667%; }
 
   .col-6 {
-    width: 46.15385%; }
+    width: 50%; }
 
   .col-7 {
-    width: 53.84615%; }
+    width: 58.33333%; }
 
   .col-8 {
-    width: 61.53846%; }
+    width: 66.66667%; }
 
   .col-9 {
-    width: 69.23077%; }
+    width: 75%; }
 
   .col-10 {
-    width: 76.92308%; }
+    width: 83.33333%; }
 
   .col-11 {
-    width: 84.61538%; }
+    width: 91.66667%; }
 
   .col-12 {
-    width: 92.30769%; }
-
-  .col-13 {
     width: 100%; } }
 
 /*# sourceMappingURL=grid.css.map */
