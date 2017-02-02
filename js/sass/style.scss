@@ -1,0 +1,466 @@
+@import 'reset.scss';
+@import 'variables.scss';
+@import 'typography.scss';
+@import 'grid.scss';
+@import 'mixins.scss';
+@import 'menu.scss';
+
+html {
+  padding: 0;
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+body {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  height: 100%;
+}
+// Menu, nagłówek, tło, register bar
+.top {
+	background-image: url('http://www.warsawtour.pl/sites/default/files/panorama_warszawy2_fot._z_archiwum_warszawskiej_organizacji_turystycznej.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 100%;
+	height: 700px;
+  @media #{$tablet}{
+    height: 100%;
+  }
+}
+  .first-title {
+    padding-top: 200px;
+    padding-left: 50px;
+    h3 {
+      color: $bg-color;
+      margin-top: 20px;
+    }
+  }
+
+  .register-bar {
+    text-align: center;
+    padding-top: 120px;
+  a {
+    padding: 20px;
+    @include regist-btn(80px, 40px);
+    box-shadow: 0 0 0 #FFF;
+    @include bs-transition(0.5s, linear);
+    &:hover {
+      box-shadow: 0 0 10px #FFF;
+      color: $accent-color;
+      background-color: $bg-color;
+    }
+  }
+}
+// Sekcja About 
+.slider-item {
+img {
+  min-height: 300px;;
+}
+}
+
+// Speakers section
+.speakers{
+  background-image: url('../img/bg3-light.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.speaker{
+  img {
+    max-width:100px;
+    float: left;
+    margin-right: 10px;
+  }
+  .who {
+    h5{
+      margin-bottom: 10px;
+    }
+  p {
+    margin: 5px 0;
+    }
+    .job:after {
+    content: ' ';
+      border: 2px solid $line-color;
+      margin: 10px 0 10px 110px;
+      width: 15%; 
+      display: block;
+    }
+}
+  }
+  /*.speakers-icon{
+  @include icons();
+  margin: 0 auto;
+  @include bs-transition(1s, linear);
+  opacity: 0;
+  }
+  &:hover .speakers-icon {
+  opacity: 1;
+  }*/
+  a{
+    color: $accent-color;
+  }
+// Conunt To 
+.count{
+  text-align: center;
+  background-color: $accent-color;
+  p {
+     color: #FFFFFF;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+  }
+  h4 {
+     color: #FFFFFF;
+    padding-bottom: 20px;
+    font-size: 2.2em
+  }
+}
+// Sekcja programu konferencji
+.program {
+  i {
+    font-size: 35px;
+    margin-right: 15px;
+    float: left;
+    color: $accent-color;
+  }
+  h5 {
+    margin-bottom: 10px;
+  }
+  p {
+    margin-left: 50px;
+  }
+  }
+
+  // sekcja z miejscem wydziału
+.place {
+    min-width: 100%;
+    height: 600px;
+    background-image: url('../img/singleimg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+      @media #{$tablet} {
+        height: 800px;
+      }
+      header {
+        padding-top: 300px;
+        h4, h3, p {
+          color: $icon-color;
+        }
+      }
+
+  }
+
+  // Warsztaty
+.workshop {
+  text-align: center;
+  h3{
+    color:$heading-color;
+    text-transform: uppercase;
+  }
+  .work{
+    h4 {
+      padding: 20px 0 20px 0;
+       @include bs-transition(0.4s, ease-in-out);
+      cursor: pointer;
+      &:hover {
+        color: $accent-color;
+        }
+      }
+    }
+}
+
+  .work-content {
+  display: none;
+  img {
+  	width: 100px;
+  	float: left;
+  }
+}
+
+// Citation slider
+.citation {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 55px;
+  .citat{
+  	li {
+  		width: 50%;
+  		margin: 0 auto;
+}
+ 	i {
+    font-size: 3em;
+    margin-right: 15px;
+    color: $accent-color;
+    @media #{$tablet}{
+    	float: left;
+    }
+  }
+  p {
+  	font-size: 0.9em;
+  	@media #{$tablet} {
+  	margin-left: 80px;
+   }
+  }
+  .autor {
+   padding-top: 7px;
+  }
+
+
+ }
+  }
+
+
+// Sponsorzy
+.sponsoring {
+  background-color: $accent-color;
+  .sponsors {
+    text-align: center;
+    :first-child {
+          color: #e5e4e2;
+          padding: 25px 0;
+    }
+    :nth-child(2) {
+      color:#cea128;
+      padding: 25px 0;
+    }
+    :nth-child(3) {
+     color:#cccac6;
+     padding: 25px 0;
+    }
+  }
+}
+
+// Organizatorzy 
+.galeria{
+   margin: 0 auto;
+   width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+}
+.photo_container {
+  text-align: center;
+  width: 190px;
+.photo {
+  width: 175px;
+  margin-top: 20px;
+}
+
+.description{
+  padding-top: 10px;
+  #lider{
+    font-size: 0.8em;
+  }
+  i{
+    color: $accent-color;
+    padding-top: 5px;
+}
+}
+}
+/*.photo_container.fade {
+  margin: 15px 0px;   //auto;
+  overflow: hidden;
+  position: relative;
+  width: 180px;
+  * {
+     @include bs-transition(0.5s, ease);
+  }
+  img {
+    margin: -17px 0 -40px -40px;
+    max-width: 300px;
+    min-height: 280px;
+    max-height: 280px;
+  } a {
+    @include bs-transition(0.2s, linear);
+  &:hover {
+    color:$accent-color;
+  }
+  }
+  &:hover .photo {
+  -webkit-filter: brightness(50%); 
+    filter: brightness(50%);
+}
+// opisy
+  .description {
+    color: #fff;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    -moz-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    text-align: left;
+    top: 50px;
+    transform: scale(0.7);
+    width: 200px;
+  }
+  &.hover .description, &:hover .description {
+    opacity: 1;
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+ 
+  }
+  .description {
+    .photo_title {
+     // border-bottom: 4px solid #fff;
+      font-family: 'Sue Ellen Francisco', serif;
+      font-size: 1.5em;
+      margin: 0 10px 5px 10px;
+      padding-bottom: 10px;
+    }
+    i {
+      font-size: 2em;
+      margin: 0 0 0 5px;
+      padding: 5px;
+    }
+  }
+} */
+// rotacja zdjęć
+ /*.photo_container {
+   &:nth-child(even) {
+    transform: rotate(-2deg) scale(1);
+  }
+ &:nth-child(odd) {
+    transform: rotate(2deg) scale(1);
+  }
+  } */
+// Partnerzy
+.partners {
+  //background-color: $accent-color;
+  img {
+    max-height: 200px;
+  }
+}
+
+
+
+
+// Materiały, pętla w sass wrzuca zdjęcia div
+/*.stuff-img {
+  margin: 0 auto;
+   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+
+
+@for $i from 1 through 8 {
+ 
+  .item:nth-child(#{$i}) {
+    background-image: url('../img/stuff/image-#{$i}.jpg');
+    background-repeat: none;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 300px;
+    margin: 0;
+    text-align: center;
+    height: 300px;
+  line-height: 250px; 
+  vertical-align: middle;
+    @include bs-transition(0.5s, ease);
+    @media #{$customD}{
+      min-width: 25%;
+       &:hover {
+      	 filter:brightness(60%);
+      }
+    }
+    
+  a {
+    opacity:0;
+    @include bs-transition(0.5s, ease);
+    @include scale-transform(0.7);
+  }
+  &:hover a {
+  	color: #FFFFFF;
+    opacity: 1;
+     -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    -webkit-transform: scale(2);
+    transform: scale(2);
+      }
+
+     
+    }
+  }
+} 
+*/
+.stuff {
+	margin-top: 50px;
+}
+.galeria2{
+   margin: 0 auto;
+   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+}
+
+.photo_container2.fade2 {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  * {
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  img {
+    width: 100%;
+  }
+  
+  &:hover .photo2 {
+  -webkit-filter: brightness(60%); 
+    filter: brightness(60%);
+}
+  .description2 {
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    -moz-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    text-align: left;
+    top: 50%;;
+    transform: scale(0.7);
+    width: 2000px;
+    a {
+    	color: #FFFFFF;
+    }
+  }
+  &.hover .description2, &:hover .description2 {
+    opacity: 1;
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+ 
+  }
+  .description2 {
+    .photo_title2 {
+      font-size: 24px;
+      margin: 0 10px 5px 30px;
+     
+    }
+  }
+  .photo2 {
+  	margin-bottom: -5px;
+  }
+}
+
+
+
+
+
+footer{
+  a{
+  margin-left: 5px;
+  color: $heading-color;
+}
+}
