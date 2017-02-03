@@ -151,7 +151,51 @@ img {
   }
 
   // Warsztaty
-.workshop {
+.workshop{
+  text-align: center;
+   h3{
+    color:$heading-color;
+    text-transform: uppercase;
+    padding: 20px 0 20px 0;
+  }
+
+	.left, .right{
+  width: 100%;
+  float: left;
+  @media #{$tablet}{
+  	width:50%;
+  }
+}
+.work{
+    h4 {
+      padding: 20px 0 20px 0;
+       @include bs-transition(0.4s, ease-in-out);
+      cursor: pointer;
+      &:hover {
+        color: $accent-color;
+        }
+      }
+      &:after {
+      	content: " ";
+      	clear: both;
+      	display: table;
+      }
+    }
+}
+  	.work-content {
+    display: none;
+     img {
+  	max-width: 100px;
+  	 @media #{$tablet}{
+
+  	float: left;
+  }
+  	
+  }
+  }
+
+
+/*.workshop {
   text-align: center;
   h3{
     color:$heading-color;
@@ -175,7 +219,7 @@ img {
   	width: 100px;
   	float: left;
   }
-}
+} */
 
 // Citation slider
 .citation {
