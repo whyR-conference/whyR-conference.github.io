@@ -18,7 +18,8 @@
   .navbar {
     padding-top: 25px; } }
 .open-nav {
-  max-height: 400px; }
+  max-height: 400px;
+  background-color: rgba(73, 140, 176, 0.9); }
   .open-nav .mobile-toggle {
     transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg); }
@@ -47,9 +48,12 @@ nav {
     nav ul a {
       color: #FFFFFF;
       text-transform: uppercase;
-      font-size: 12px; }
+      font-size: 12px;
+      transition: all 0.3s ease-out;
+      border-bottom: none; }
       nav ul a:hover {
-        box-shadow: 0px 0px 10px #FFF; }
+        border-bottom: 2px solid #fce38a;
+        color: #fce38a; }
 
 @media only screen and (max-width: 990px) {
   nav {

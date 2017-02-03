@@ -66,18 +66,21 @@ header {
 	margin-top: 45px;
 	margin-bottom: 45px;
 	line-height: 50px;
-	h3:after {
+	h3 {
+		text-transform: uppercase;
+	
+	&:after {
 		content: ' ';
 	    border: 2px solid $line-color;
 	    margin: 20px auto;
 	    width: 7%; 
 	    display: block;
 }
+}
 	@media #{$tablet}{
 		h3 {
 			font-size: 2em;
 			font-size: 2em;
-			text-transform: uppercase;
 		}
 	}
 	p{

@@ -1,9 +1,9 @@
 /*
-Error: Undefined variable: "$secondary-heading".
+Error: Undefined variable: "$primary-heading".
         on line 2 of D:\whyR-conference.roboczy2\sass\typography.scss
 
 1: h5 {
-2: 	font-family: $secondary-heading;
+2: 	font-family: $primary-heading;
 3: 	font-weight: 600;
 4: 	font-size: 1.3em;
 5: 	color: $heading-color;
@@ -58,4 +58,4 @@ E:/Program Files (x86)/Koala/bin/sass:18:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$secondary-heading\".\A         on line 2 of D:\whyR-conference.roboczy2\sass\typography.scss\A \A 1: h5 {\A 2: 	font-family: $secondary-heading;\A 3: 	font-weight: 600;\A 4: 	font-size: 1.3em;\A 5: 	color: $heading-color;\A 6: }\A 7: "; }
+  content: "Error: Undefined variable: \"$primary-heading\".\A         on line 2 of D:\whyR-conference.roboczy2\sass\typography.scss\A \A 1: h5 {\A 2: 	font-family: $primary-heading;\A 3: 	font-weight: 600;\A 4: 	font-size: 1.3em;\A 5: 	color: $heading-color;\A 6: }\A 7: "; }
