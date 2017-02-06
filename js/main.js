@@ -42,7 +42,15 @@ $('.timer').countTo();
   	speed: 3000
   });
 
+$('.postL').addClass("hidden").viewportChecker({
+        classToAdd: 'visible animated fadeInLeft',
+        offset: 300
+       });
 
+$('.postR').addClass("hidden").viewportChecker({
+        classToAdd: 'visible animated fadeInRight',
+        offset: 300
+       });
 
 
 
