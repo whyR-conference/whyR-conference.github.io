@@ -1,0 +1,499 @@
+@import 'reset.scss';
+@import 'variables.scss';
+@import 'typography.scss';
+@import 'grid.scss';
+@import 'mixins.scss';
+@import 'menu.scss';
+
+html {
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+body {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  height: 100%;
+}
+// Menu, nagłówek, tło, register bar
+.top {
+	background-image: url('http://www.warsawtour.pl/sites/default/files/panorama_warszawy2_fot._z_archiwum_warszawskiej_organizacji_turystycznej.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 100%;
+	height: 700px;
+  @media #{$tablet}{
+    height: 100%;
+  }
+}
+  .first-title {
+    padding-top: 200px;
+    padding-left: 50px;
+    h3 {
+      color: $bg-color;
+      margin-top: 20px;
+    }
+  }
+
+  .register-bar {
+    text-align: center;
+    padding-top: 120px;
+  a {
+    padding: 20px;
+    @include regist-btn(80px, 40px);
+    box-shadow: 0 0 0 #FFF;
+    @include bs-transition(0.5s, linear);
+    &:hover {
+      box-shadow: 0 0 10px #FFF;
+      color: $accent-color;
+      background-color: $bg-color;
+    }
+  }
+}
+// Sekcja About 
+.slider-item {
+img {
+  min-height: 300px;
+}
+}
+
+// Speakers section
+.speakers{
+  background-image: url('../img/bg3-light.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.speaker{
+  img {
+    max-width:100px;
+    float: left;
+    margin-right: 10px;
+  }
+  .who {
+    h5{
+      margin-bottom: 10px;
+    }
+  p {
+    margin: 5px 0;
+    }
+    .job:after {
+    content: ' ';
+      border: 2px solid $line-color;
+      margin: 10px 0 10px 110px;
+      width: 15%; 
+      display: block;
+    }
+}
+  }
+  /*.speakers-icon{
+  @include icons();
+  margin: 0 auto;
+  @include bs-transition(1s, linear);
+  opacity: 0;
+  }
+  &:hover .speakers-icon {
+  opacity: 1;
+  }*/
+  a{
+    color: $accent-color;
+  }
+// Conunt To 
+.count{
+  text-align: center;
+  background-color: $accent-color;
+  p {
+     color: #FFFFFF;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+  }
+  h4 {
+     color: #FFFFFF;
+    padding-bottom: 20px;
+    font-size: 2.2em
+  }
+}
+// Sekcja programu konferencji
+.program {
+  i {
+    font-size: 35px;
+    margin-right: 15px;
+    float: left;
+    color: $accent-color;
+  }
+  h5 {
+    margin-bottom: 10px;
+  }
+  p {
+    margin-left: 50px;
+  }
+  }
+
+  // sekcja z miejscem wydziału
+.place {
+    min-width: 100%;
+    height: 700px;
+    background-image: url('../img/bg/singleimg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 80%;
+      @media #{$tablet} {
+        height: 800px;
+        font-size: 100%;
+        padding-top: 100px;
+      }
+      header {
+        padding-top: 70px;
+        h4, h3, p {
+          color: $icon-color;
+        }
+      }
+
+  }
+
+  // Warsztaty
+.workshop{
+  text-align: center;
+   h3{
+    color:$heading-color;
+    text-transform: uppercase;
+    padding: 20px 0 20px 0;
+  }
+
+	.left, .right{
+  width: 100%;
+  float: left;
+  @media #{$tablet}{
+  	width:50%;
+  }
+}
+.work{
+    h4 {
+      padding: 20px 0 20px 0;
+       @include bs-transition(0.4s, ease-in-out);
+      cursor: pointer;
+      &:hover {
+        color: $accent-color;
+        }
+      }
+      &:after {
+      	content: " ";
+      	clear: both;
+      	display: table;
+      }
+    }
+}
+  	.work-content {
+    display: none;
+     img {
+  	max-width: 100px;
+  	 @media #{$tablet}{
+
+  	float: left;
+  }
+  	
+  }
+  }
+
+
+/*.workshop {
+  text-align: center;
+  h3{
+    color:$heading-color;
+    text-transform: uppercase;
+  }
+  .work{
+    h4 {
+      padding: 20px 0 20px 0;
+       @include bs-transition(0.4s, ease-in-out);
+      cursor: pointer;
+      &:hover {
+        color: $accent-color;
+        }
+      }
+    }
+}
+
+  .work-content {
+  display: none;
+  img {
+  	width: 100px;
+  	float: left;
+  }
+} */
+
+// Citation slider
+.citation {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 55px;
+  .citat{
+  	li {
+  		width: 50%;
+  		margin: 0 auto;
+  }
+ 	i {
+    font-size: 3em;
+    margin-right: 15px;
+    color: $accent-color;
+    @media #{$tablet}{
+    	float: left;
+    }
+  }
+  p {
+  	font-size: 0.7em;
+  	@media #{$tablet} {
+  	margin-left: 80px;
+   }
+  }
+  .autor {
+   padding-top: 7px;
+  }
+ }
+}
+
+
+// Sponsorzy
+.sponsoring {
+  background-color: $accent-color;
+  .sponsors {
+    text-align: center;
+    :first-child {
+          color: #e5e4e2;
+          padding: 25px 0;
+    }
+    :nth-child(2) {
+      color:#cea128;
+      padding: 25px 0;
+    }
+    :nth-child(3) {
+     color:#cccac6;
+     padding: 25px 0;
+    }
+  }
+}
+
+// Organizatorzy 
+.galeria{
+   margin: 0 auto;
+   width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+}
+.photo_container {
+  text-align: center;
+  width: 190px;
+.photo {
+  width: 175px;
+  margin-top: 20px;
+}
+
+.description{
+  padding-top: 10px;
+  #lider{
+    font-size: 0.8em;
+  }
+  i{
+    color: $accent-color;
+    padding-top: 5px;
+}
+}
+}
+
+.org {
+  text-align: center;
+  margin: 0 auto;
+  img {
+    max-width: 60%;
+    max-height: 150px; 
+
+    @media #{$tablet} {
+      max-width: 80%;
+      max-height: 200px; 
+
+    }
+  }
+}
+
+.partners-postR {
+  text-align: center;
+  margin: 0 auto;
+  img {
+    max-width: 50%;
+    max-height: 100px; 
+
+    @media #{$tablet} {
+      max-width: 80%;
+      max-height: 200px; 
+
+    }
+  }
+}
+
+
+
+.stuff {
+	margin-top: 50px;
+}
+.galeria2{
+   margin: 0 auto;
+   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+}
+
+.photo_container2.fade2 {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  @media #{$tablet}{
+  	width: 25%;
+  }
+  * {
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  img {
+    min-width: 100%;
+  }
+  
+  &:hover .photo2 {
+  -webkit-filter: brightness(60%); 
+    filter: brightness(60%);
+}
+  .description2 {
+    left: 100px;
+    opacity: 0;
+    position: absolute;
+    font-size: 1.5em;
+    -moz-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    text-align: left;
+    top: 50%;
+    transform: scale(0.7);
+    a {
+    	color: #FFFFFF;
+    }
+  }
+  &.hover .description2, &:hover .description2 {
+    opacity: 1;
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+ 
+  }
+  .photo2 {
+  	margin-bottom: -5px;
+  }
+}
+
+.blog {
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+// Price
+* { 
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box; 
+}
+
+
+
+table {
+  border-collapse: separate;
+  background: #fff;
+  border-radius: 5px;
+  margin:50px auto;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+}
+
+thead {
+  border-radius: 5px;
+}
+
+thead th {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+  text-align: left;
+  padding:20px;
+  background-image: linear-gradient($accent-color, #4a5564);
+  border-top:1px solid #858d99;
+  
+  &:first-child {
+   border-top-left-radius: 5px; 
+  }
+
+  &:last-child {
+  border-top-right-radius: 5px; 
+  }
+}
+
+tbody tr td {
+  font-weight:400;
+  color:#5f6062;
+  font-size:13px;
+  padding:20px 20px 20px 20px;
+  border-bottom:1px solid #e0e0e0;
+  
+}
+
+tbody tr:nth-child(2n) {
+  background:#f0f3f5;
+}
+
+tbody tr:last-child td {
+  border-bottom:none;
+  &:first-child {
+    border-bottom-left-radius: 5px;
+  }
+  &:last-child {
+   border-bottom-right-radius: 5px;
+  }
+}
+
+
+
+footer{
+  .bottom {
+  border-top: 1px solid $accent-color;
+}
+  a{
+  margin-left: 5px;
+  color: $heading-color;
+  }
+  .social-footer {
+    li {
+      display: inline-block;
+      font-size: 1.7em;
+      margin-right: 10px;
+      a {
+      color: $accent-color;
+      }
+    }
+  }
+}
+
+
+// Additional style
+.hidden{
+     opacity:0;
+}
+.visible{
+     opacity:1;
+}

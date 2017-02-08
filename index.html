@@ -1,551 +1,770 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js">
-	<!--<![endif]-->
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>Polish R Users Conference</title>
-		<meta name="description" content="">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="pl">
+<head>
 
-		<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Exo+2:400,100,100italic,200,200italic,300,300italic,400italic,500,500italic,700,700italic,600,600italic' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="css/normalize.css">
-		<link rel="stylesheet" type="text/css" href="css/component.css" />
-		<link rel="stylesheet" type="text/css" href="css/bg-slider.css" />
-		<link rel="stylesheet" type="text/css" href="clock/css/clock.css">
-		<link rel="stylesheet" type="text/css" href="css/main.css">
-		<link rel="stylesheet" type="text/css" href="css/responsive.css">
-		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
-			<script>
-			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-			  ga('create', 'UA-89584843-1', 'auto');
-			  ga('send', 'pageview');
-
-			</script>
-
-
-
-	</head>
-	<body>
-		<!--[if lt IE 7]>
-		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-		<![endif]-->
-
-		<ul class="cb-slideshow">
-			<li>
-				<span>Image 01</span>
-			</li>
-			<li>
-				<span>Image 02</span>
-			</li>
-			<li>
-				<span>Image 03</span>
-			</li>
-			<li>
-				<span>Image 04</span>
-			</li>
-			<li>
-				<span>Image 05</span>
-			</li>
-			<li>
-				<span>Image 06</span>
-			</li>
-		</ul>
-
-		<section class="main-menu-container">
-			<div class="show_toggle"><a href="#"></a></div>
-			<ul class="main-menu">
-				<li>
-					<a href="#" class="home-link"><b>Główna</b></a>
-				</li>
-				<li>
-					<a href="#" data-page="whyr"><b>Why R?</b></a>
-				</li>
-				<li>
-					<a href="#" data-page="organizers"><b>Organizatorzy</b></a>
-				</li>
-				<li>
-					<a href="#" data-page="schedule"><b>Harmonogram</b></a>
-				</li>
-				<li>
-					<a href="blog/"><b>Blog</b></a>
-				</li>
-				<li>
-					<a href="http://www.mini.pw.edu.pl/cisim2015/index.php?menu=venue"><b>Zwiedzanie</b></a>
-				</li>
-				<li>
-					<a href="en/index.html"><img src="img/english-language.png" alt="" width="50px" height="20px"/></a>
-				</li>
-			</ul>
-		</section>
-		<section class="twitter-container">
-			<div class="twitter">
-				<ul class="tweet_list" id="tweet_list">
-					<li class="tweet_first tweet_odd">
-						<span class="tweet_text">Mamy przyjemność organizować
-							<br>
-							Ogólnopolską Konferencję Użytkowników <b>R</b>.
-							<br>Wrzesień 2017, Warszawa!</span>
-					</li>
-					<li class="tweet_even">
-						<span class="tweet_text"><span class="at">Obserwujcie @</span><a href="http://twitter.com/whyRconf">whyRconf</a> na Twitter'ze aby uzyskać więcej wiadomości :) i bądźcie czujni!</span>
-					</li>
-					<li class="tweet_odd">
-						<span class="tweet_text"><span class="at">Byliście na @</span><a href="http://twitter.com/eRum2016">erum2016</a>? <br>Nie przegapcie następnego dużego spotkania użytkowników <b>R</b> w Polsce <br>- konerfencji "Why R?"!</span>
-					</li>
-				</ul>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat|Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!-- Style -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Animate lib -->
+	<link rel="stylesheet" type="text/css" href="css/animate.css" />
+	<!-- Owl carusel -->
+ 	<link rel="stylesheet"  href="css/owl.carousel.css">
+	<link rel="stylesheet"  href="css/owl.theme.default.css">
+	<!-- BX slider for our citate -->
+	<link rel="stylesheet"  href="css/jquery.bxslider.css" />
+	<!-- JQ -->
+	<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-migrate-3.0.0.js" integrity="sha256-lsVOB+3Yhm6He5MkTO3Bw/Xw4NXK7wYYTi1Y+M/2PrM=" crossorigin="anonymous"></script>
+	<script src="js/jquery.viewportchecker.js" ></script>
+</head>
+<body>
+	<div class="top">
+			<div class="navbar">
+    			<div class="main-menu">
+        			<div class="mobile-toggle">
+			            <span></span>
+			            <span></span>
+			            <span></span>
+        			</div>
+        			<nav>
+            			<ul>
+	               			<li><a href=".about">Opis</a></li>
+							<li><a href=".speakers">Goście</a></li>
+							<li><a href=".program">Program</a></li>
+							<li><a href=".workshop">Warsztaty</a></li>
+							<!-- <li><a href="#">Sponsorzy</a></li> -->
+							<li><a href=".organizators">Organizatorzy</a></li>
+							<li><a href=".stuff">Materiały</a></li>
+							<li><a href=".price">Rejestracja</a></li>
+            			</ul>
+        			</nav>
+   		 		</div> <!-- / Main-menu -->
 			</div>
-		</section>
-		<section class="mainarea">
-			<div id="clock" class="active">
-				<br><br>
-				<div class="clock-container">
-					<div id="time-container-wrap">
-						<div id="time-container">
-							<div class="numbers-container"></div>
-							<span id="ticker" class="clock-label"><h4>Why R?</h4></span>
-							<span id="timelable" class="clock-label">POZOSTAŁO</span>
-							<span id="timeleft" class="clock-label">COUNTDOWN</span>
-							<figure id="canvas"></figure>
+				<div class="first-title">
+					<h2>Konferencja</h2>
+					<h1>Why R?</h1>
+					<h3>Warszawa, 27-29 września 2017</h3>
+				</div>
+				<div class="register-bar">
+					<a href="#">Rejestracja od 1 marca!</a>
+				</div>
+	</div>
+	<!-- Sekcja o konferencji -->
+	<section class="about postL">
+		<div class="wrapper">
+			<header>
+				<h4>O konferencji</h4>
+  				<h3>Why R?</h3>
+
+ 				<p> Why R? 2017 to ogólnopolska konferencja entuzjastów pakietu statystycznego R, zarówno z biznesu jak i środowiska akademickiego. </p><p>Jest to niepowtarzalna okazja na powiększenie wiedzy o R, udoskonalenie umiejętności przetwarzania i analizowania danych a także na poszerzenie kontaktów w polskim środowisku R.</p>
+				<p>W organizację wydarzenia zaangażowane są największe polskie grupy entuzjastów R.</p>
+			</header>
+				<div class="owl-carousel owl-theme">
+					  <div class="slider-item"><img src="img/meetings/rladies1-resized-crop-txt.jpeg"></div>
+						<div class="slider-item"><img src="img/meetings/triger1-txt.jpg"></div>
+						<div class="slider-item"><img src="img/meetings/ser1-resized-crop-txt.jpeg"></div>
+					  <div class="slider-item"><img src="img/meetings/erka1-txt.jpg"></div>
+					  <div class="slider-item"><img src="img/meetings/stwur1-txt.jpg"></div>
+					  <div class="slider-item"><img src="img/meetings/pazur1-txt.jpeg"></div>
+					  <!--<div> Your Content </div>
+					  <div> Your Content </div>
+					  <div> Your Content </div>
+					  <div> Your Content </div>
+					  <div> Your Content </div>
+					  <div> Your Content </div>
+					  <div> Your Content </div>
+					  <div> Your Content </div>-->
+				</div>
+			</div>
+	</section>
+	<!-- Sekcja o mówcach -->
+	<section class="speakers postR">
+	<div class="wrapper">
+			<header>
+				<h4>Główni Prelegenci</h4>
+				<h3>Zaproszeni Goście</h3>
+				<div class="line"></div>
+			</header>
+				<div class="row">
+					<div class="col-6 speaker">
+						<img src="img/guests/tburzykowski.gif">
+						<div class="who">
+							<h5>Tomasz Burzykowski</h5>
+							<p class="job"><a href="https://www.linkedin.com/in/tomaszbur"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+								<a href="http://www.uhasselt.be/fiche_en?email=tomasz.burzykowski"><i class="fa fa-globe" aria-hidden="true"></i></a>
+								Uniwersytet Hasselt</p>
+							<p>Wiceprezes ds. badań naukowych w International Drug Development Institute (Belgia).</p>
 						</div>
 					</div>
-					<br><p> Ogólnopolska Konferencja Użytkowników R 2017 <br> Wydział Matematyki i Nauk Informacyjnych, Politechnika Warszawska <a href="https://www.google.pl/maps/place/Wydzia%C5%82+Matematyki+i+Nauk+Informacyjnych/@52.2222296,21.0067982,17z/data=!4m5!3m4!1s0x471eccec70946a39:0x69dbb30f57ca9d3a!8m2!3d52.2221573!4d21.0071308">Koszykowa 75</a></p>
-				</div>
-			</div>
-			<div class="mainarea-content">
-				<div id="whyr" data-page="whyr" class="side-page side-left went-left">
-					<div class="container">
-						<h3 class="title"><b>Why R?</b></h3>
-						<ul class="services">
-							<li>
-								<img src="img/icons/promotion-icon.png" alt="" />
-								<p>
-									200 Uczestników
-								</p>
-							</li>
-							<li>
-								<img src="img/icons/web-desing-icon.png" alt="" />
-								<p>
-									Dzień Warsztatów <br>+ 2 Dni Wykładów
-								</p>
-							</li>
-							<li>
-								<img src="img/icons/photography-icon.png" alt="" />
-								<p>
-									Sesja Plakatowa
-								</p>
-							</li>
-						</ul>
-						<p><h3>Ogólnopolska Konferencja Użytkowników R <br> Warszawa, 27-29 Września 2017</h3>
-						</p>
-						<p> Ogólnopolska konferencja użytkowników R to spotkanie entuzjastów pakietu statystycznego R, zarówno z biznesu jak i środowiska akademickiego. To wydarzenie jest niepowtarzalną okazją na powiększenie wiedzy o R, udoskonalenie umiejętności analitycznych i programistycznych a także na poszerzenie kontaktów w polskim środowisku R. </p>
-						<p> Liczymy na wiele nowych wiadomości z metodologii badań i informacji z dziedziny rozwoju oprogramowania. Zapewniamy świetny program społecznościowy.</p>
+					<div class="col-6 speaker">
+						<img src="img/guests/artur.gif">
+						<div class="who">
+							<h5>Artur Suchwałko</h5>
+							<p class="job"><a href="https://www.linkedin.com/in/artursuchwalko"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+								<a href="http://quantup.pl/"><i class="fa fa-globe" aria-hidden="true"></i></a>
+								QuantUp.pl</p>
+							<p>Data Scientist - analiza danych, modelowanie statystyczne, tworzenie oprogramowania oraz szkolenia.
+						</div>
 					</div>
 				</div>
-				<div id="organizers" data-page="organizers" class="side-page active">
-					<div class="container">
-						<ul class="services2">
-							<li>
-								<img src="img/people/marcin-crop.gif" alt="" width="90px" height="90px"/>
-								<p>
-								Marcin Kosiński
-									<ul class="social">
-										<li>
-											<a href="http://twitter.com/kosinski_rblog"><img src="img/icons/twitter-icon.png" alt="" /></a>
-										</li>
-										<li>
-											<a href="http://github.com/MarcinKosinski/"><img src="img/icons/github-logo.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="http://r-addict.com/"><img src="img/icons/globe.png" alt="" width="20px" height="20px"/></a>
-										</li>
-									</ul>
+				<div class="row">
+					<div class="col-6 speaker">
+						<img src="img/guests/jbrzezinska.gif">
+						<div class="who">
+							<h5>Justyna Brzezińska</h5>
+							<p class="job">
+								<a href="http://www2.ue.katowice.pl/pracownik/clean.php/n_pracownik/id/588/"><i class="fa fa-globe" aria-hidden="true"></i></a>
+								Uniwersytet Ekonomiczny w Katowicach</p>
+							<p>Asystent w Katedrze Analiz Gospodarczych i Finansowych na Wydziale Finansów i Ubezpieczeń.</p>
+						</div>
+					</div>
+					<div class="col-6 speaker">
+						<img src="img/guests/pbiecek.gif">
+						<div class="who">
+							<h5>Przemysław Biecek</h5>
+							<p class="job"><a href="https://www.linkedin.com/in/przemyslaw-biecek-5b41761"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+								<a href="http://biecek.pl/"><i class="fa fa-globe" aria-hidden="true"></i></a>
+								Politechnika Warszawska</p>
+							<p>Od kilkunastu lat pracuje nad metodami modelowania wysokowymiarowych danych dużego wolumenu.</p>
+						</div>
+					</div>
+					</div>
+				<div class="row">
+					<div class="col-6 speaker">
+						<img src="img/who-crop.gif">
+						<div class="who">
+							<h5>Więcej gości wkrótce</h5>
+							<p class="job"><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+								<a href=""><i class="fa fa-globe" aria-hidden="true"></i></a>
+								<a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+</p>
+<!--							<p>lorem ipsum w dupe pipsum musi być tak, gdzies ze dwie linijki ghfghf tekst</p> -->
+						</div>
+					</div>
+					<div class="col-6 speaker">
+						<img src="img/who-crop.gif">
+						<div class="who">
+							<h5>Więcej gości wkrótce</h5>
+							<p class="job"><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+								<a href=""><i class="fa fa-globe" aria-hidden="true"></i></a>
+								<a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
 								</p>
-							</li>
-							<li>
-								<img src="img/people/olga-crop.gif" alt="" width="90px" height="90px"/>
-								<p>
-								Olga Mierzwa<br>
-									<ul class="social">
-										<li>
-											<a href="https://twitter.com/olga_mie"><img src="img/icons/twitter-icon.png" alt="" /></a>
-										</li>
-										<li>
-											<a href="http://github.com/olgamie"><img src="img/icons/github-logo.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="https://www.linkedin.com/in/olga-mierzwa-84843539"><img src="img/icons/linkedin-sign.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-									</ul>
-								</p>
-							</li>
-							<li>
-								<img src="img/people/przemyslaw-crop.gif" alt="" width="90px" height="90px"/>
-								<p>
-								Przemysław Biecek
-									<ul class="social">
-										<li>
-											<a href="https://twitter.com/smarterpoland"><img src="img/icons/twitter-icon.png" alt="" /></a>
-										</li>
-										<li>
-											<a href="http://github.com/pbiecek/"><img src="img/icons/github-logo.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="http://biecek.pl/"><img src="img/icons/globe.png" alt="" width="20px" height="20px"/></a>
-										</li>
-									</ul>
-								</p>
-							</li>
-							<li>
-								<img src="img/people/maciej-crop.gif" alt="" width="90px" height="90px"/>
-								<p>
-								Maciej Beręsewicz
-									<ul class="social">
-										<li>
-											<a href="https://twitter.com/mberesewicz"><img src="img/icons/twitter-icon.png" alt="" /></a>
-										</li>
-										<li>
-											<a href="https://github.com/BERENZ"><img src="img/icons/github-logo.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="https://berenz.github.io/"><img src="img/icons/globe.png" alt="" width="20px" height="20px"/></a>
-										</li>
-									</ul>
-								</p>
-							</li>
-							<li>
-								<img src="img/people/bartosz-crop.gif" alt="" width="90px" height="90px"/>
-								<p>
-								Bartosz Sękiewicz
-									<ul class="social">
-										<li>
-											<a href="https://github.com/bsekiewicz"><img src="img/icons/github-logo.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="https://www.linkedin.com/in/bsekiewicz"><img src="img/icons/linkedin-sign.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="mailto:b.sekiewicz@erkakrakow.pl"><img src="img/icons/envelope.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-									</ul>
-								</p>
-							</li>
-							<li>
-								<img src="img/people/adolfo-crop.gif" alt="" width="90px" height="90px"/>
-								<p>
-								Adolfo Alvarez
-									<ul class="social">
-										<li>
-											<a href="https://twitter.com/adolfoalvarez"><img src="img/icons/twitter-icon.png" alt=""/></a>
-										</li>
-										<li>
-											<a href="https://github.com/adolfoalvarez"><img src="img/icons/github-logo.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="http://adolfoalvarez.cl/"><img src="img/icons/globe.png" alt="" width="20px" height="20px"/></a>
-										</li>
-									</ul>
-								</p>
-							</li>
-							<li>
-								<img src="img/people/alicja-crop.gif" alt="" width="90px" height="90px"/>
-								<p>
-								Alicja Gosiewska
-									<ul class="social">
-										<li>
-											<a href="https://github.com/Jusira"><img src="img/icons/github-logo.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="https://www.linkedin.com/in/alicja-gosiewska"><img src="img/icons/linkedin-sign.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="mailto:alicjagosiewska@gmail.com"><img src="img/icons/envelope.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-									</ul>
-								</p>
-							</li>
-							<li>
-								<img src="img/people/aleksandra-crop.gif" alt="" width="90px" height="90px"/>
-								<p>
-								Aleksandra Dąbrowska
-									<ul class="social">
-										<li>
-											<a href="https://github.com/AleksandraDabrowska"><img src="img/icons/github-logo.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="mailto:oll.dabrowska@gmail.com"><img src="img/icons/envelope.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-									</ul>
-								</p>
-							</li>
-							<li>
-								<img src="img/people/monika-crop.gif" alt="" width="90px" height="90px"/>
-								<p>
-								Monika Stępień
-									<ul class="social">
-										<li>
-											<a href="https://pl.linkedin.com/in/monika-stępień-a85b01116"><img src="img/icons/linkedin-sign.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="https://www.researchgate.net/profile/Monika_Stepien2"><img src="img/icons/globe.png" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="https://twitter.com/radiowaxglowa"><img src="img/icons/twitter-icon.png" alt="" /></a>
-										</li>
-									</ul>
-								</p>
-							</li>
-							<li>
-								<img src="img/people/agnieszka-crop.gif" alt="" width="90px" height="90px"/>
-								<p>
-								Agnieszka Dumania
-									<ul class="social">
-										<li>
-											<a href="https://www.linkedin.com/in/agnieszka-dumania-41294b76"><img src="img/icons/linkedin-sign.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="mailto:agnieszka.dumania@gmail.com"><img src="img/icons/envelope.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-									</ul>
-								</p>
-							</li>
-							<li>
-								<img src="img/people/bartek-crop.gif" alt="" width="90px" height="90px"/>
-								<p>
-								Bartłomiej Tartanus
-									<ul class="social">
-										<li>
-											<a href="https://twitter.com/bartektartanus"><img src="img/icons/twitter-icon.png" alt="" /></a>
-										</li>
-										<li>
-											<a href="https://pl.linkedin.com/in/bartlomiejtartanus"><img src="img/icons/linkedin-sign.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="http://stackoverflow.com/users/2125442/bartektartanus"><img src="img/icons/stack-overflow.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-									</ul>
-								</p>
-							</li>
-							<li>
-								<img src="img/people/anna-crop.gif" alt="" width="90px" height="90px"/>
-								<p>
-								Anna Rybińska
-									<ul class="social">
-										<li>
-											<a href="rybinska@qsar.eu.org"><img src="img/icons/envelope.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="https://pl.linkedin.com/in/anna-rybi%25C5%2584ska-2ba507115"><img src="img/icons/linkedin-sign.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="http://www.qsar.eu.org/"><img src="img/icons/globe.png" alt="" width="20px" height="20px"/></a>
-										</li>
-									</ul>
-								</p>
-							</li>
-							<li>
-								<img src="img/people/alicja_ru-crop.gif" alt="" width="90px" height="90px"/>
-								<p>
-								Alicja Raszkowska
-									<ul class="social">
-										<li>
-											<a href="https://github.com/trueskawka"><img src="img/icons/github-logo.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="https://pl.linkedin.com/in/alicjaraszkowska"><img src="img/icons/linkedin-sign.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="https://trueskawka.github.io/"><img src="img/icons/globe.png" alt="" width="20px" height="20px"/></a>
-										</li>
-									</ul>
-								</p>
-							</li>
-							<li>
-								<img src="img/people/krzysztof-crop.gif" alt="" width="90px" height="90px"/>
-								<p>
-								Krzysztof Słomczyński
-									<ul class="social">
-										<li>
-											<a href="http://github.com/krzyslom"><img src="img/icons/github-logo.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="http://www.linkedin.com/in/krzysztof-słomczyński-20a364134"><img src="img/icons/linkedin-sign.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-										<li>
-											<a href="krzysztofslomczynski@gmail.com"><img src="img/icons/envelope.svg" alt="" width="20px" height="20px"/></a>
-										</li>
-									</ul>
-								</p>
-							</li>
-	          </ul>
-						<ul class="services">
-							<li>
-								<p>Organizatorzy
-									<ul class="social2">
-										<li>
-											<a href="http://www.mini.pw.edu.pl">
-												<img src="img/logos/m_logo_120x120_2.png" alt="mini" />
-											</a>
-										</li>
-										<li>
-											<a href="https://www.pw.edu.pl">
-												<img src="img/logos/Logo_PW_negatyw.png" alt="pw" width="100px" height="100px"/>
-											</a>
-										</li>
-										<li>
-											<a href="http://datascience.mini.pw.edu.pl/">
-												<img src="img/logos/knds_logo_white-scaled.png" alt="sp" width="90px" height="100px"/>
-											</a>
-										</li>
-									</ul>
-								</p>
-							</li>
-							<li>
-								<p>Partnerzy Społecznościowi
-									<ul class="social2">
-										<li>
-											<a href="https://www.meetup.com/Spotkania-Entuzjastow-R-Warsaw-R-Users-Group-Meetup/">
-												<img src="img/logos/ser-transparent.png" alt="sp" width="80px" height="100px"/>
-											</a>
-										</li>
-										<li>
-											<a href="http://www.erkakrakow.pl/">
-												<img src="img/logos/erka_white_3.png" alt="sp" width="110px" height="100px"/>
-											</a>
-										</li>
-										<li>
-											<a href="https://www.meetup.com/Trojmiejska-Grupa-Entuzjastow-R/">
-												<img src="img/logos/triger.png" alt="sp" width="105px" height="80px"/>
-											</a>
-										</li>
-										<li>
-											<a href="http://www.stwur.pl/">
-												<img src="img/logos/stwur_trans.png" alt="sp" width="105px" height="100px"/>
-											</a>
-										</li>
-										<li>
-											<a href="http://smarterpoland.pl">
-												<img src="img/logos/smarterpoland_logo_white.png" alt="sp" width="100px" height="100px"/>
-											</a>
-										</li>
-										<li>
-											<a href="http://szychtawdanych.pl/">
-												<img src="img/logos/szychta.png" alt="sp" width="100px" height="100px"/>
-											</a>
-										</li>
-										<li>
-											<a href="https://www.meetup.com/Data-Science-Warsaw/">
-												<img src="img/logos/DSW_transparent.png" alt="sp" width="100px" height="100px"/>
-											</a>
-										</li>
-										<li>
-											<a href="http://tableaupoland.com/">
-												<img src="img/logos/tableau.png" alt="sp" width="100px" height="100px"/>
-											</a>
-										</li>
-									</ul>
-								</p>
-							</li>
-						</ul>
+<!--							<p>lorem ipsum w dupe pipsum musi być tak, gdzies ze dwie linijki ghfghf tekst</p> -->
+						</div>
 					</div>
 				</div>
+				<!--<div class="row">
+					<div class="col-6 speaker">
+						<img src="img/guests/artur.gif">
+						<div class="who">
+							<h5>Imie nazwisko</h5>
+							<p class="job"><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+								<a href=""><i class="fa fa-globe" aria-hidden="true"></i></a>
+								<a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+								Co robi</p>
+							<p>lorem ipsum w dupe pipsum musi być tak, gdzies ze dwie linijki ghfghf tekst</p>
+						</div>
+					</div>
+					<div class="col-6 speaker">
+						<img src="img/guests/artur.gif">
+						<div class="who">
+							<h5>Imie nazwisko</h5>
+							<p class="job"><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+								<a href=""><i class="fa fa-globe" aria-hidden="true"></i></a>
+								<a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+								Co robi</p>
+							<p>lorem ipsum w dupe pipsum musi być tak, gdzies ze dwie linijki ghfghf tekst</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-6 speaker">
+						<img src="img/guests/artur.gif">
+						<div class="who">
+							<h5>Imie nazwisko</h5>
+							<p class="job"><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+								<a href=""><i class="fa fa-globe" aria-hidden="true"></i></a>
+								<a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+								Co robi</p>
+							<p>lorem ipsum w dupe pipsum musi być tak, gdzies ze dwie linijki ghfghf tekst</p>
+						</div>
+					</div>
+					<div class="col-6 speaker">
+						<img src="img/guests/artur.gif">
+						<div class="who">
+							<h5>Imie nazwisko</h5>
+							<p class="job"><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+								<a href=""><i class="fa fa-globe" aria-hidden="true"></i></a>
+								<a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+								Co robi</p>
+							<p>lorem ipsum w dupe pipsum musi być tak, gdzies ze dwie linijki ghfghf tekst</p>
+						</div>
+					</div>
+				</div> -->
 
-				<div id="schedule" data-page="schedule" class="side-page side-right went-right">
-					<div class="container">
-						<h3 class="title"><b>Harmonogram</b></h3>
-						<p>
-						<table style="width:100%">
-						  <tr>
-						    <th><p><b>15.01.2017</b></p>	</th>
-								<th><p><b>Rozpoczęcie przyjmowania zgłoszeń na propozycje warsztatów <a href="https://goo.gl/forms/jbICwb5H6f09dNlz1">LINK</a></b></p>	</th>
-						  </tr>
-							<tr>
-								<th><p><b>15.02.2017</b></p>	</th>
-								<th><p><b>Koniec przyjmowania zgłoszeń na propozycje warsztatów</b></p>	</th>
-							</tr>
-							<tr>
-							</tr>
-							<tr>
-								<th><p><b>22.02.2017</b></p>	</th>
-								<th><p><b>Ogłoszenie przyjętych warsztatów</b></p>	</th>
-							</tr>
-							<tr>
-							</tr>
-							<tr>
-								<th><p><b>01.03.2017</b></p>	</th>
-								<th><p><b>Początek rejestracji na konferencję i na warsztaty</b></p>	</th>
-							</tr>
-							<tr>
-							</tr>
-							<tr>
-								<th><p><b>01.06.2017</b></p>	</th>
-								<th><p><b>Zamknięcie rejestracji</b></p>	</th>
-							</tr>
-							<tr>
-							</tr>
-							<tr>
-								<th><p><b>26.09.2017</b></p>	</th>
-								<th><p><b>Hackathon</b></p>	</th>
-							</tr>
-							<tr>
-								<th><p><b>27.09.2017</b></p>	</th>
-								<th><p><b>Warsztaty</b></p>	</th>
-							</tr>
-							<tr>
-								<th><p><b>28-29.09.2017</b></p>	</th>
-								<th><p><b>Konferencja</b></p>	</th>
-							</tr>
-						</table>
-					</p>
+			</div>
+	</section>
+	<!-- Licznik -->
+	<section class="count">
+		<div class="row">
+			<div class="statistics col-3">
+					<div class="statistics-content">
+						<h4><span class="timer" data-from="0" data-to="200" data-speed="6000"></span></h4>
+						<p>Miejsc</p>
+					</div>
+				</div>
+				<div class="statistics col-3">
+					<div class="statistics-content">
+						<h4><span class="timer" data-from="0" data-to="31" data-speed="5000"></span></h4>
+						<p>Uczestników</p>
+					</div>
+				</div>
+				<div class="statistics col-3">
+					<div class="statistics-content">
+						<h4><span class="timer" data-from="0" data-to="11" data-speed="5000"></span></h4>
+						<p>Zgłoszonych prezentacji</p>
+					</div>
+				</div>
+				<div class="statistics col-3">
+					<div class="statistics-content">
+						<h4><span class="timer" data-from="0" data-to="9" data-speed="5000"></span></h4>
+						<p>Zgłoszonych warsztatów</p>
+					</div>
+				</div>
+				<!---
+				<div class="statistics col-3">
+					<div class="statistics-content">
+						<h4><span class="timer" data-from="0" data-to="1257" data-speed="8000"></span></h4>
+						<p>Wysłanych wiadomości</p>
 					</div>
 				</div>
 			</div>
-			<a class="close" href="#"><img alt="" src="img/close.png"></a>
-		</section>
-		<section class="social-container">
-		  <ul class="social">
-		    <li>
-		      <a href="https://twitter.com/whyRconf"><img src="img/icons/twitter-icon.png" alt="" /></a>
-		    </li>
-		    <li>
-		      <a href="http://github.com/whyR-conference/"><img src="img/icons/github-logo.svg" alt="" width="20px" height="20px"/></a>
-		    </li>
-		    <li>
-		      <a href="https://www.facebook.com/whyRconf"><img src="img/icons/facebook-icon.png" alt="" /></a>
-		    </li>
-		  </ul>
-		</section>
+		-->
+	</section>
+	<!-- Program konferencji -->
+	<section class="program postL">
+		<div class="wrapper">
+			<header>
+				<h4>Podczas konferencji zapewniamy</h4>
+				<h3>Program</h3>
+			</header>
+			<div class="row">
+				<div class="col-4"><i class="fa fa-laptop" aria-hidden="true"></i>
+ 					<h5>Warsztaty</h5>
+					<p>Dzień warsztatów z dwoma sesjami: poranną i popołudniową. W ramach każdej z nich uczestniczyć będzie można w trzygodzinnych zajęciach. Solidna porcja wiedzy!</p>
+				</div>
+				<div class="col-4"><i class="fa fa-university" aria-hidden="true"></i>
+ 					<h5>Wykłady</h5>
+					<p>Dwa dni wykładów, na które składają się 3 równoległe sesje tematyczne, przerywane plenarnymi wykładami zaproszonych gości. Zapewniamy także przerwy kawowe oraz lunch.</p>
+				</div>
+				<div class="col-4"><i class="fa fa-hourglass" aria-hidden="true"></i>
+ 					<h5>Hackathon</h5>
+					<p>Dzień wspólnego zmagania się z problemami analizy danych! Zapraszamy wszystkich lubiących pracę w grupie przy kreatywnej atmosferze. Wydarzenie towarzyszące.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-4"><i class="fa fa-line-chart" aria-hidden="true"></i>
+ 					<h5>Sesja plakatowa</h5>
+					<p>Wystawa plakatów opisujących projekty albo badania. Dobre dopełnienie welcome paRty - wydarzenia integracyjnego, zaplanowanego na koniec pierwszego dnia wykładów. </p>
+				</div>
+				<div class="col-4"><i class="fa fa-bullhorn" aria-hidden="true"></i>
+ 					<h5>Lightning Talks</h5>
+					<p>Sesja żywiołowych i dynamicznych prezentacji, przewidzianych na 5 minut każda. Doskonała okazja na wystąpienie dla studentów i mniej doświadczonych mówców.</p>
+				</div>
+				<div class="col-4"><i class="fa fa-group" aria-hidden="true"></i>
+ 					<h5>Sesja społeczności</h5>
+					<p>Specjalna sesja poświęcona grupom entuzjastów R. Szansa na wymianę doświadczeń w kwestii organizacji i działania społeczności skupiających osoby związane z R w Polsce</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Sekcja ozdobniczo/przerwynikowa ze zdjęciem miejsca konferencji -->
+	<section class="place">
+		<div class="wrapper">
+			<header>
+				<h4>Miejsce</h4>
+				<h3>Wydział Matematyki i Nauk Informacyjnych</h3>
+				<h4>Politechnika Warszawska, ul. Koszykowa 75</h4>
+				<p>Wydział Matematyki i Nauk Informacyjnych powstał w 1999 roku w wyniku podzielenia Wydziału Fizyki Technicznej i Matematyki Stosowanej. Początkowo miał siedzibę w Gmachu Głównym Politechniki Warszawskiej, a w 2012 roku przeniósł się do nowo wybudowanego budynku przy ul. Koszykowej 75.</p>
+				<p>Wydział może pochwalić się wysoką pozycją naukową (kategoria A) oraz wysokim poziomem kształcenia (wyróżnienie na kierunku Matematyka i pozytywna ocena na kierunku Informatyka Państwowej Komisji Akredytacyjnej), zaangażowaniem kadry naukowo-dydaktycznej w działalność publikacyjną oraz prowadzeniem dużych projektów informatycznych, w tym projektów zakończonych wdrożeniami.</p>
+			</header>
+		</div>
+	</section>
+	<section class="workshop postR">
+		<div class="wrapper">
+			<header>
+				<h4>Dostępne od 28 lutego!</h4>
+				<h3>Warsztaty</h3>
+				<p>Zapisy ruszają od 1 marca, a do 22 lutego zbieramy propozycje warsztatów - <a href="http://whyr.pl/blog/info/2017/01/15/Warsztaty-ruszamy.html">tutaj</a>.</p>
+			</header>
+		    <div class="left">
+		    	<h3>Sesja poranna</h3>
+			    <div class="work">
+			        <h4>Warsztat sala 310</h4>
+			        <div class="work-content"><img src="img/who.png"><p> Dostępne od 28 lutego.</p>
+	    			</div>
+			    </div>
+			    <div class="work">
+			        <h4>Warsztat sala 311</h4>
+			        <div class="work-content"><img src="img/who.png"><p> Dostępne od 28 lutego.</p>
+			        </div>
+			    </div>
+			    <div class="work">
+			        <h4>Warsztat sala 312</h4>
+			        <div class="work-content"><img src="img/who.png"><p> Dostępne od 28 lutego.</p>
+	    			</div>
+			    </div>
+			    <div class="work">
+			        <h4>Warsztat sala 313</h4>
+			        <div class="work-content"><img src="img/who.png"><p> Dostępne od 28 lutego.</p>
+			        </div>
+			    </div>
+			    <div class="work">
+			        <h4>Warsztat sala 314</h4>
+			        <div class="work-content"><img src="img/who.png"><p> Dostępne od 28 lutego.</p>
+	    			</div>
+			    </div>
+			    <div class="work">
+			        <h4>Warsztat sala 315</h4>
+			        <div class="work-content"><img src="img/who.png"><p> Dostępne od 28 lutego.</p>
+			        </div>
+			    </div>
+		    </div>
 
+		    <div class="right">
+			    	<h3>Sesja popołudniowa</h3>
+			    <div class="work">
+			        <h4>Warsztat sala 310</h4>
+			        <div class="work-content">
+			        	<img src="img/who.png"><p> Dostępne od 28 lutego.</p>
+			        </div>
+			    </div>
+			    <div class="work">
+			        <h4>Warsztat sala 311</h4>
+			        <div class="work-content">
+			        	<img src="img/who.png"><p> Dostępne od 28 lutego.</p>
+			        </div>
+			    </div>
+			    <div class="work">
+			        <h4>Warsztat sala 312</h4>
+			        <div class="work-content">
+			        	<img src="img/who.png"><p> Dostępne od 28 lutego.</p>
+			        </div>
+			    </div>
+			    <div class="work">
+			        <h4>Warsztat sala 313</h4>
+			        <div class="work-content">
+			        	<img src="img/who.png"><p> Dostępne od 28 lutego.</p>
+			        </div>
+			    </div>
+			    <div class="work">
+			        <h4>Warsztat sala 314</h4>
+			        <div class="work-content">
+			        	<img src="img/who.png"><p> Dostępne od 28 lutego.</p>
+			        </div>
+			    </div>
+			    <div class="work">
+			        <h4>Warsztat sala 315</h4>
+			        <div class="work-content">
+			        	<img src="img/who.png"><p> Dostępne od 28 lutego.</p>
+			        </div>
+			    </div>
+		  	</div>
+		</div>
+	</section>
+	<section class="citation">
+		<div class="wrapper">
+			<header>
+				<h3>Co odpowiadają na 'Why R?'</h3>
+			</header>
+			<ul class="bxslider">
+				<div class="citat">
+			  <li><i class="fa fa-cloud" aria-hidden="true"></i>
+					<p>Nasza cywilizacja generuje niewyobrażalną ilość danych. Trzeba umieć je analizować, szukać w nich wzorców i wiedzy.
+Czym jak nie ogólnie dostępnym językiem R? A gdzie można wymienić się wiedzą jak nie na Why R 2017?</p><div class="autor"><p>Łukasz Grala, TIDK - Technology Innovation Data Knowledge</p></div></li></div>
+			  <div class="citat">
+			  <li><i class="fa fa-cloud" aria-hidden="true"></i>
+					<p>Środowisko R to nie tylko program do analizy danych, to przede wszystkim język wspólny dla osób których
+celem jest przekazanie całemu światu o czym "szepczą" dane.</p><div class="autor"><p>Emilia Daghir-Wojtkowiak, asystent w Katedrze Biofarmacji I Farmakodynamikii GUMED</p></div></li></div>
+			  <div class="citat">
+			  <li><i class="fa fa-cloud" aria-hidden="true"></i>
+					<p>Masz pomysł? Chcesz się podzielić odpowiedzią?</p><div class="autor"><p>Zgłoś się na whyr@mini.pw.edu.pl</p></div></li></div>
+			</ul>
+		</div>
+	</section>
+	<!-- Sekcja zawierająca sposorów -->
+	<!--<section class="sponsoring">
+		<div class="wrapper">
+			<header>
+				<h4>Komu to zawdzięczamy</h4>
+				<h3>Sponsorzy</h3>
+				<div class="line"></div>
+			</header>
+			<div class="sponsors">
+				<h3>Sponsorzy Platynowi</h3>
+				<h3>Sponsorzy Złoci</h3>
+				<h3>Sponsorzy Srebrni</h3>
+			</div>
+		</div>
+	</section>
+	<!-- Sekcja poświęcona organizatorom -->
+	<section class="organizators postL">
+		<div class="wrapper">
+			<header>
+				<h4>Kim Jesteśmy?</h4>
+				<h3>Komitet organizacyjny</h3>
+			</header>
+			<div class="galeria">
+				<div class="photo_container">
+				  <figure class="photo">
+				    <img src="img/people/marcin-crop.gif" alt="Marcin" />
+				  </figure>
+				  <div class="description">
+				 	<p>Marcin Kosiński</p><p id="lider">Przewodniczący</p>
+				    <div class="photo_title"></div>
+				    <a href="https://www.linkedin.com/in/marcin-kosiński-81435aab"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+					<a href="http://r-addict.com/"><i class="fa fa-globe" aria-hidden="true"></i></a>
+					<a href="https://github.com/MarcinKosinski/"><i class="fa fa-github" aria-hidden="true"></i></a>
+				  </div>
+				</div>
+				<div class="photo_container">
+					<figure class="photo">
+						<img src="img/people/olga-crop.gif" alt="Olga" />
+					</figure>
+					<div class="description">
+						<p>Olga Mierzwa-Sulima</p>
+						<a href="https://www.linkedin.com/in/olga-mierzwa-84843539"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+					<a href="http://github.com/olgamie"><i class="fa fa-github" aria-hidden="true"></i></a>
+					<a href="https://twitter.com/olga_mie"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+					</div>
+				</div>
+				<div class="photo_container">
+				  <figure class="photo">
+				    <img src="img/people/przemek-crop.gif" alt="Przemysław" />
+				  </figure>
+				  <div class="description">
+				    <p>Przemysław Biecek</p>
+				    <a href="http://biecek.pl/"><i class="fa fa-globe" aria-hidden="true"></i></a>
+					<a href="http://github.com/pbiecek/"><i class="fa fa-github" aria-hidden="true"></i></a>
+					<a href="https://twitter.com/smarterpoland"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+				  </div>
+				</div>
 
-		<script src="js/vendor/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/vendor/classie.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/vendor/jquery.easing.1.3.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/vendor/jquery.tubular.1.0.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/vendor/jquery.cycle.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/plugins.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+				<div class="photo_container">
+				  <figure class="photo">
+				    <img src="img/people/bartosz-crop.gif" alt="Bartosz" />
+				  </figure>
+				  <div class="description">
+				    <p>Bartosz Sękiewicz</p>
+				    <a href="https://www.linkedin.com/in/bsekiewicz"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+					<a href="https://github.com/bsekiewicz"><i class="fa fa-github" aria-hidden="true"></i></a>
+					<a href="mailto:b.sekiewicz@erkakrakow.pl"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+				  </div>
+				</div>
+				<div class="photo_container">
+				  <figure class="photo">
+				    <img src="img/people/maciej-crop.gif" alt="maciej" />
+				  </figure>
+				  <div class="description">
+				    <p>Maciej Beręsewicz</p>
+				    <a href="https://github.com/BERENZ"><i class="fa fa-github" aria-hidden="true"></i></a>
+					<a href="https://berenz.github.io/"><i class="fa fa-globe" aria-hidden="true"></i></a>
+					<a href="https://twitter.com/mberesewicz"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+				  </div>
+				</div>
+				<div class="photo_container">
+				  <figure class="photo">
+				    <img src="img/people/adolfo-crop.gif" alt="adolfo" />
+				  </figure>
+				  <div class="description">
+				    <p>Adolfo Alvarez</p>
+				    <a href="https://github.com/adolfoalvarez"><i class="fa fa-github" aria-hidden="true"></i></a>
+					<a href="http://adolfoalvarez.cl/"><i class="fa fa-globe" aria-hidden="true"></i></a>
+					<a href="https://twitter.com/adolfoalvarez"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+				  </div>
+				</div>
+				<div class="photo_container">
+				  <figure class="photo">
+				    <img src="img/people/alicja-crop.gif" alt="Alicja" />
+				  </figure>
+				  <div class="description">
+				    <p>Alicja Gosiewska</p>
+				    <a href="https://www.linkedin.com/in/alicja-gosiewska"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+					<a href="https://github.com/Jusira"><i class="fa fa-github" aria-hidden="true"></i></a>
+					<a href="mailto:alicjagosiewska@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+				  </div>
+				</div>
+				<div class="photo_container">
+				  <figure class="photo">
+				    <img src="img/people/aleksandra-crop.gif" alt="aleksandra" />
+				  </figure>
+				  <div class="description">
+				    <p>Aleksandra Dąbrowska</p>
+				    <a href="https://github.com/AleksandraDabrowska"><i class="fa fa-github" aria-hidden="true"></i></a>
+					<a href="mailto:oll.dabrowska@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+				  </div>
+				</div>
+				<div class="photo_container">
+				  <figure class="photo">
+				    <img src="img/people/monika-crop.gif" />
+				  </figure>
+				  <div class="description">
+				    <p>Monika Stępień</p>
+				    <a href="https://pl.linkedin.com/in/monika-stępień-a85b01116"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+					<a href="https://www.researchgate.net/profile/Monika_Stepien2"><i class="fa fa-globe" aria-hidden="true"></i></a>
+					<a href="https://twitter.com/radiowaxglowa"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+				  </div>
+				</div>
+				<div class="photo_container">
+				  <figure class="photo">
+				    <img src="img/people/agnieszka-crop.gif" alt="agnieszka" />
+				  </figure>
+				  <div class="description">
+				    <p>Agnieszka Dumania</p>
+				    <a href="https://www.linkedin.com/in/agnieszka-dumania-41294b76"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+					<a href="mailto:agnieszka.dumania@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+				  </div>
+				</div>
+				<div class="photo_container">
+				  <figure class="photo">
+				    <img src="img/people/alicja_ru-crop.gif" alt="alicja" />
+				  </figure>
+				  <div class="description">
+				    <p>Alicja Raszkowska</p>
+				    <a href="https://pl.linkedin.com/in/alicjaraszkowska"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+					<a href="https://trueskawka.github.io/"><i class="fa fa-globe" aria-hidden="true"></i></a>
+					<a href="https://github.com/trueskawka"><i class="fa fa-github" aria-hidden="true"></i></a>
+				  </div>
+				</div>
+				<div class="photo_container">
+				  <figure class="photo">
+				    <img src="img/people/anna-crop.gif" alt="anna"/>
+				  </figure>
+				  <div class="description">
+				    <p>Anna Rybińska</p>
+				    <a href="https://pl.linkedin.com/in/anna-rybi%25C5%2584ska-2ba507115"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+					<a href="http://www.qsar.eu.org/"><i class="fa fa-globe" aria-hidden="true"></i></a>
+					<a href="mailto:rybinska@qsar.eu.org"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+				  </div>
+				</div>
+				<div class="photo_container">
+				  <figure class="photo">
+				    <img src="img/people/bartek-crop.gif" alt="bartek" />
+				  </figure>
+				  <div class="description">
+				    <p>Bartłomiej Tartanus</p>
+				    <a href="https://pl.linkedin.com/in/bartlomiejtartanus"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+					<a href="http://stackoverflow.com/users/2125442/bartektartanus"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+					<a href="https://twitter.com/bartektartanus"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+				  </div>
+				</div>
 
-
-		<script src="clock/js/svg.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="clock/js/svg.easing.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="clock/js/svg.clock.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/vendor/ThreeWebGL.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/vendor/ThreeExtras.js" type="text/javascript" charset="utf-8"></script>
-		<script src="clock/js/jquery.timers.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="clock/js/clock.js" type="text/javascript" charset="utf-8"></script>
-
-
-
-	</body>
+				 <div class="photo_container">
+				  <figure class="photo">
+				    <img src="img/people/krzysztof-crop.gif" />
+				  </figure>
+				  <div class="description">
+				    <p>Krzysztof Słomczyński</p>
+				    <a href="http://www.linkedin.com/in/krzysztof-słomczyński-20a364134"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+					<a href="http://github.com/krzyslom"><i class="fa fa-github" aria-hidden="true"></i></a>
+					<a href="mailto:krzysztofslomczynski@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+				  </div>
+				</div>
+				 <div class="photo_container">
+				  <figure class="photo">
+				    <img src="img/people/anonim-crop.gif" />
+				  </figure>
+				  <div class="description">
+				    <p>Dołącz - whyr@mini.pw.edu.pl </p>
+				    <a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+					<a href=""><i class="fa fa-globe" aria-hidden="true"></i></a>
+					<a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+				  </div>
+				</div>
+		</div>
+	</section>
+	<!-- Loga organiztorów -->
+	<section class="org">
+		<div class="wrapper">
+			<header>
+				<h4>Instytucje</h4>
+				<h3>organizatorzy</h3>
+			</header>
+			<div class="row">
+				<div class="col-4"><a href="http://www.mini.pw.edu.pl/tikiwiki/"><img src="img/logos/mini.gif" alt="logo"></a></div>
+				<div class="col-4"><a href="https://www.pw.edu.pl/"><img src="img/logos/PW.png" alt="PW"></a></div>
+				<div class="col-4"><a href="http://whyr.pl/blog/info/2017/01/13/KNDS-wspolorganizator.html"><img src="img/logos/knds_logo.png" alt="datasince"></a></div>
+			</div>
+		</div>
+	</section>
+	<!-- Partnerzy społecznościowi || poniżej wstaw link do stron partnerów, przyszykowałem już znaczniki <a> z pustym href=""-->
+	<section class="partners-postR">
+		<div class="wrapper">
+			<header>
+				<h4>Nasze wsparcie</h4>
+				<h3>Partnerzy Społecznościowi</h3>
+			</header>
+			<div class="row">
+				<div class="col-2"><a href="https://www.meetup.com/Spotkania-Entuzjastow-R-Warsaw-R-Users-Group-Meetup/"><img src="img/logos/ser-transparent.png" alt="r warsaw">
+				</a></div>
+				<div class="col-2"><a href="http://whyr.pl/blog/partner/2017/02/02/eRka.html"><img src="img/logos/erkalogo_orange.png" alt="r krakow"></a></div>
+				<div class="col-2"><a href="http://whyr.pl/blog/partner/2017/02/03/trigeR.html"><img src="img/logos/triger3.png" alt="R trojmiasto"></a></div>
+				<div class="col-2"><a href="http://whyr.pl/blog/partner/2017/01/29/STWUR.html"><img src="img/logos/stwur.png" alt="r wroclaw"></a></div>
+				<div class="col-2"><a href="https://www.meetup.com/Poznan-R-User-Group-PAZUR/"><img src="img/logos/pazur.png" alt="r poznan"></a></div>
+				<div class="col-2"><a href="http://whyr.pl/blog/partner/2017/02/06/R-Ladies.html"><img src="img/logos/rladies.png" alt="r ladies warsaw"></a></div>
+			</div>
+			<div class="row">
+				<div class="col-2"><a href="http://smarterpoland.pl/"><img src="img/logos/smarterpoland_logo.png" alt="smarter poland"></a></div>
+				<div class="col-2"><a href="http://whyr.pl/blog/partner/2017/01/23/Szychta-w-Danych.html"><img src="img/logos/szychta.png" alt="szychta"></a></div>
+				<div class="col-2"><a href="https://www.meetup.com/Data-Science-Warsaw/"><img src="img/logos/DSW_transparent.png" alt="dsw"></a></div>
+				<div class="col-2"><a href="http://whyr.pl/blog/partner/2017/01/26/Tableau-Poland.html"><img src="img/logos/tableau.png" alt="tableau"></a></div>
+				<div class="col-2"><a href="https://www.facebook.com/groups/azureugpl/"><img src="img/logos/microsoft_azure.png" alt="microsoft_azure"></a></div>
+			</div>
+		</div>
+	</section>
+	<section class="stuff postL">
+	<header>
+		<h4>Dodamy wkrótce</h4>
+		<h3>Materiały</h3>
+	</header>
+	<div class="galeria2">
+		<div class="photo_container2 fade2">
+  			<figure class="photo2">
+    			<img src="img/materials/mat1.jpg" />
+  			</figure>
+  			<div class="description2">
+    			<div class="photo_title2"><a href="https://github.com/whyR-conference/hackathon">Hackathon</a></div>
+  			</div>
+  		</div>
+		<div class="photo_container2 fade2">
+  			<figure class="photo2">
+    			<img src="img/materials/triger1.jpg" />
+  			</figure>
+  			<div class="description2">
+    			<div class="photo_title2"><a href="https://github.com/whyR-conference/prezentacje">Prezentacje</a></div>
+  			</div>
+  		</div>
+ <div class="photo_container2 fade2">
+  <figure class="photo2">
+    <img src="img/materials/mat3.jpg" />
+  </figure>
+  <div class="description2">
+    <div class="photo_title2"><a href="https://github.com/whyR-conference/warsztaty">Warsztaty</a></div>
+  </div>
+  </div>
+<div class="photo_container2 fade2">
+  <figure class="photo2">
+    <img src="img/materials/mat4.jpg" />
+  </figure>
+  <div class="description2">
+    <div class="photo_title2"><a href="https://github.com/whyR-conference/abstrakty">Abstrakty</a></div>
+  </div>
+  </div>
+  </div>
+	</section>
+	<!-- Masz przyszykowane img na zdjęcie oraz drugi div z <p> na tekst -->
+	<section class="blog">
+		<div class="wrapper">
+			<header>
+				<h4>Sprawdź aktualności</h4>
+				<h3>Nasz Blog</h3>
+			</header>
+			<div class="row">
+				<div class="col-4"><img src="img/logos/r-project.jpeg"><h3><a href="http://whyr.pl/blog/info/2017/01/09/Ruszamy.html">Tematyka konferencji</a></h3><p>09-01-2017, Marcin Kosiński</p></div>
+				<div class="col-4"><img src="img/logos/r-project.jpeg"><h3><a href="http://whyr.pl/blog/info/2017/01/15/Warsztaty-ruszamy.html">Zgłoś swój warsztat</a></h3><p>15-01-2017, Agnieszka Dumania</p></div>
+				<div class="col-4"><img src="img/logos/r-project.jpeg"><h3><a href="http://whyr.pl/blog/info/2017/01/18/Partnerzy-spolecznosciowi.html">Zostań partnerem społecznościowym</a></h3><p>18-01-2017, Marcin Kosiński</p></div>
+			</div>
+		</div>
+	</section>
+	<section class="price">
+		<div class="wrapper">
+			<header>
+				<h4>Ważne daty</h4>
+				<h3>Rejestracja</h3>
+				<div class="line"></div>
+				<p>Udział w konferencji - 100zł. Cena obejmuje udział w 2 dniach wykładów (28-29.09), welcome paRty oraz opłatę cateringową (10zł). Można zrezygnować z oferty cateringowej podczas rejestracji, wtedy koszt udziału to 90zł.</p>
+				<p>Udział w jednej sesji warsztatowej - 200 zł (27.09). Przewidujemy 2 sesje: poranną i popołudniową.</p>
+				<p>Udział w Hackathonie (26.09) jest bezpłatny.</p>
+			</header>
+			<div class="row">
+				<table>
+				    <thead>
+				        <tr>
+				            <th>Data</th>
+				            <th>Wydarzenie</th>
+				        </tr>
+				    </thead>
+				    <tbody>
+				        <tr>
+				            <td><p>15.01.2017</p></td>
+				            <td><p>Rozpoczęcie przyjmowania zgłoszeń na propozycje warsztatów <a href="https://goo.gl/forms/jbICwb5H6f09dNlz1">LINK</a></p></td>
+				        </tr>
+				        <tr>
+				            <td><p>22.02.2017</p></td>
+				            <td><p>Koniec przyjmowania zgłoszeń na propozycje warsztatów</p></td>
+				        </tr>
+				        <tr>
+				            <td><p>28.02.2017</p></td>
+				            <td><p>Ogłoszenie przyjętych warsztatów</p></td>
+				        </tr>
+				        <tr>
+				            <td><p>01.03.2017</p></td>
+				            <td><p>Początek rejestracji na konferencję i na warsztaty</p></td>
+				        </tr>
+				         <tr>
+				            <td><p>01.03.2017</p></td>
+				            <td><p>Początek zgłaszania prezentacji, plakatów i lightning talks</p></td>
+				        </tr>
+				        <tr>
+				            <td><p>15.05.2017</p></td>
+				            <td><p>Zamknięcie zgłaszania prezentacji, plakatów i lightning talks</p></td>
+				        </tr>
+				        <tr>
+				            <td><p>01.06.2017</p></td>
+				            <td><p>Zamknięcie rejestracji</p></td>
+				        </tr>
+				        <tr>
+				            <td><p>26.09.2017</p></td>
+				            <td><p>Hackathon</p></td>
+				        </tr>
+				         <tr>
+				            <td><p>27.09.2017</p></td>
+				            <td><p>Warsztaty</p></td>
+				        </tr>
+				        <tr>
+				            <td><p>28-29.09.2017</p></td>
+				            <td><p>Konferencja</p></td>
+				        </tr>
+				    </tbody>
+				</table>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="wrapper bottom">
+			<div class="row">
+				<div class="col-6">
+					<ul class="social-footer">
+						<li><a href="https://twitter.com/whyRconf"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li><a href="https://github.com/whyR-conference/"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.facebook.com/whyRconf"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="mailto:whyr@mini.pw.edu.pl"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+				<div class="col-6">&copy; 2017 | Design: <a href="https://github.com/EmilBuszylo">Emil Buszyło</a> | Treść: <a href="https://r-addict.com">Marcin Kosiński </div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/main.js"></script>
+	<script src="js/jq-menu.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.countTo.js" ></script>
+	<script src="js/jquery.bxslider.min.js"></script>
+</body>
 </html>

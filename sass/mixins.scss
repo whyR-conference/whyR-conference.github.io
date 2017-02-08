@@ -1,0 +1,67 @@
+@mixin regist-btn($width, $height) {
+	width: $width;
+	height: $height;
+	border: 3px solid $bg-color;
+	background-color: transparent;
+	color: $bg-color;
+	font-family: $text;
+	text-decoration: uppercase;
+	font-weight: 600;
+}
+
+@mixin icons(){
+	// color: $icon-color;
+	background-color: transparent;
+	transition: all 0.5s ease-in-out;
+}
+
+
+// Mixins do zdjęć organizatorów oraz materiałów
+@mixin photo_title() {
+	border-bottom: 4px solid #fff;
+      font-family: $secondary-heading;
+      margin: 0 10px 5px 10px;
+      padding-bottom: 10px;
+}
+
+@mixin dark{
+	-webkit-filter: brightness(50%); 
+    filter: brightness(50%);
+}
+
+@mixin description-mix($width) {
+	color: #fff;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    -moz-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    text-align: left;
+    top: 50px;
+    transform: scale(0.7);
+    width: $width;
+}
+
+// Transition mixin!!
+@mixin bs-transition($time, $type) {
+	-moz-transition: all $time $type;
+    -ms-transition: all $time $type;
+    -webkit-transition: all $time $type;
+    transition: all $time $type;
+}
+
+@mixin vertical-align() {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+@mixin scale-transform($scale) {
+	 position: absolute;
+	-moz-transform: $scale;
+    -ms-transform: $scale;
+    -webkit-transform: $scale;
+    transform: $scale;
+}
