@@ -39,7 +39,8 @@ $('.timer').countTo();
   	auto: true,
   	pager: false,
   	mode: 'horizontal',
-  	speed: 3000
+  	speed: 4000,
+    pause: 12000
   });
 
 $('.postL').addClass("hidden").viewportChecker({
