@@ -317,6 +317,16 @@ img {
 
     }
   }
+  .poli{
+      @media #{$tablet} {
+       margin-top: 70px;
+      }
+  }
+   .mi-lab{
+      @media #{$tablet} {
+       margin-top: 40px;
+      }
+  }
 }
 
 .partners-postR {
