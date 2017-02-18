@@ -102,4 +102,16 @@ nav {
 * {
   box-sizing: border-box; }
 
+.whyr-blog {
+  display: inline-block; }
+  .whyr-blog a {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: all 0.3s ease-out;
+    border-bottom: none; }
+    .whyr-blog a:hover {
+      border-bottom: 2px solid #fce38a;
+      color: #fce38a; }
+
 /*# sourceMappingURL=menu.css.map */
