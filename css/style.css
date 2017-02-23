@@ -309,6 +309,9 @@ nav {
     .whyr-blog a:hover {
       border-bottom: 2px solid #fce38a;
       color: #fce38a; }
+    .whyr-blog a img {
+      width: 25px;
+      margin-left: 10px; }
 
 html {
   padding: 0;
@@ -384,16 +387,11 @@ body {
   margin: 10px 0 10px 110px;
   width: 15%;
   display: block; }
+.speaker .who .whyr-icon img {
+  max-width: 15px;
+  min-width: 15px;
+  margin: 0 5px; }
 
-/*.speakers-icon{
-@include icons();
-margin: 0 auto;
-@include bs-transition(1s, linear);
-opacity: 0;
-}
-&:hover .speakers-icon {
-opacity: 1;
-}*/
 a {
   color: #498CB0; }
 

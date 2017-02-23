@@ -85,17 +85,15 @@ img {
       width: 15%; 
       display: block;
     }
+    .whyr-icon{
+      img {
+         max-width: 15px;
+        min-width: 15px;
+        margin: 0 5px;
+      }
+    }
 }
   }
-  /*.speakers-icon{
-  @include icons();
-  margin: 0 auto;
-  @include bs-transition(1s, linear);
-  opacity: 0;
-  }
-  &:hover .speakers-icon {
-  opacity: 1;
-  }*/
   a{
     color: $accent-color;
   }
