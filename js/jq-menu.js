@@ -10,7 +10,14 @@ $(window).scroll(function() {
         $('.navbar').addClass('sticky');
     } else {
         $('.navbar').removeClass('sticky');
-    }
+    }   
+});
+  $(function($){
+  $.scrollTo(0);
+  
+  $('.link').click(function(){
+  $.scrollTo($(this).attr('href'),500);
+});
 });
 
 // Mobile Navigation
@@ -30,14 +37,14 @@ $('.navbar li a').click(function() {
 });
 
 // navigation scroll lijepo radi materem
-$('nav a').click(function(event) {
-    var id = $(this).attr("href");
-    var offset = 70;
-    var target = $(id).offset().top - offset;
-    $('html, body').animate({
-        scrollTop: target
-    }, 500);
-    event.preventDefault();
-});
+// $('nav a').click(function(event) {
+//     var id = $(this).attr("href");
+//     var offset = 70;
+//     var target = $(id).offset().top - offset;
+//     $('html, body').animate({
+//         scrollTop: target
+//     }, 500);
+//     event.preventDefault();
+// });
 
 });

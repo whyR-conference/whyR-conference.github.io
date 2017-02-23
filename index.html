@@ -24,6 +24,8 @@
 	<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/jquery-migrate-3.0.0.js" integrity="sha256-lsVOB+3Yhm6He5MkTO3Bw/Xw4NXK7wYYTi1Y+M/2PrM=" crossorigin="anonymous"></script>
 	<script src="js/jquery.viewportchecker.js" ></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
+	
 </head>
 <body>
 	<div class="top">
@@ -39,14 +41,14 @@
 							<a href="http://whyr.pl/blog/">Blog<img src="img/icons/whyrnieb-white.png"></a>
 	        			</div>
             			<ul>
-	               			<li><a href=".about">Opis</a></li>
-							<li><a href=".speakers">Goście</a></li>
-							<li><a href=".program">Program</a></li>
-							<li><a href=".workshop">Warsztaty</a></li>
+	               			<li><a href="#about" class="link">Opis</a></li>
+							<li><a href="#speakers" class="link">Goście</a></li>
+							<li><a href="#program" class="link">Program</a></li>
+							<li><a href="#workshop" class="link">Warsztaty</a></li>
 							<!-- <li><a href="#">Sponsorzy</a></li> -->
-							<li><a href=".organizators">Organizatorzy</a></li>
-							<li><a href=".stuff">Materiały</a></li>
-							<li><a href=".price">Rejestracja</a></li>
+							<li><a href="#organizators" class="link">Organizatorzy</a></li>
+							<li><a href="#stuff" class="link">Materiały</a></li>
+							<li><a href="#price" class="link">Rejestracja</a></li>
             			</ul>
         			</nav>
    		 		</div> <!-- / Main-menu -->
@@ -61,7 +63,7 @@
 				</div>
 	</div>
 	<!-- Sekcja o konferencji -->
-	<section class="about postL">
+	<section  id="about" class="about postL">
 		<div class="wrapper">
 			<header>
 				<h4>O konferencji</h4>
@@ -89,7 +91,7 @@
 			</div>
 	</section>
 	<!-- Sekcja o mówcach -->
-	<section class="speakers postR">
+	<section id="speakers" class="speakers postR">
 	<div class="wrapper">
 			<header>
 				<h4>Główni Prelegenci</h4>
@@ -219,7 +221,7 @@
 				</div>
 	</section>
 	<!-- Program konferencji -->
-	<section class="program postL">
+	<section id="program" class="program postL">
 		<div class="wrapper">
 			<header>
 				<h4>Podczas konferencji zapewniamy</h4>
@@ -267,7 +269,7 @@
 			</header>
 		</div>
 	</section>
-	<section class="workshop postR">
+	<section id="workshop" class="workshop postR">
 		<div class="wrapper">
 			<header>
 				<h4>Dostępne od 28 lutego!</h4>
@@ -385,7 +387,7 @@ celem jest przekazanie całemu światu o czym "szepczą" dane.</p><div class="au
 		</div>
 	</section>
 	<!-- Sekcja poświęcona organizatorom -->
-	<section class="organizators postL">
+	<section id="organizators" class="organizators postL">
 		<div class="wrapper">
 			<header>
 				<h4>Kim Jesteśmy?</h4>
@@ -561,7 +563,7 @@ celem jest przekazanie całemu światu o czym "szepczą" dane.</p><div class="au
 		</div>
 	</section>
 	<!-- Loga organiztorów -->
-	<section class="org">
+	<section  class="org">
 		<div class="wrapper">
 			<header>
 				<h4>Instytucje</h4>
@@ -606,7 +608,7 @@ celem jest przekazanie całemu światu o czym "szepczą" dane.</p><div class="au
 			</div>
 		</div>
 	</section>
-	<section class="stuff postL">
+	<section id="stuff" class="stuff postL">
 	<header>
 		<h4>Dodamy wkrótce</h4>
 		<h3>Materiały</h3>
@@ -660,7 +662,7 @@ celem jest przekazanie całemu światu o czym "szepczą" dane.</p><div class="au
 			</div>
 		</div>
 	</section>
-	<section class="price">
+	<section id="price" class="price">
 		<div class="wrapper">
 			<header>
 				<h4>Ważne daty</h4>

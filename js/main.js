@@ -53,6 +53,4 @@ $('.postR').addClass("hidden").viewportChecker({
         offset: 300
        });
 
-
-
 });
