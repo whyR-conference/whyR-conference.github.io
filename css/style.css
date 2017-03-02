@@ -441,33 +441,23 @@ a {
     color: #333333;
     text-transform: uppercase;
     padding: 20px 0 20px 0; }
-  .workshop .left, .workshop .right {
-    width: 100%;
-    float: left; }
-    @media (min-width: 992px) {
-      .workshop .left, .workshop .right {
-        width: 50%; } }
-  .workshop .work h4 {
-    padding: 20px 0 20px 0;
-    -moz-transition: all 0.4s ease-in-out;
-    -ms-transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-    cursor: pointer; }
-    .workshop .work h4:hover {
-      color: #498CB0; }
-  .workshop .work:after {
-    content: " ";
-    clear: both;
-    display: table; }
-
-.work-content {
-  display: none; }
-  .work-content img {
-    max-width: 100px; }
-    @media (min-width: 992px) {
-      .work-content img {
-        float: left; } }
+  .workshop .work-content {
+    line-height: 28px;
+    width: 90%; }
+    .workshop .work-content a {
+      color: #333333;
+      -moz-transition: all 0.3s linear;
+      -ms-transition: all 0.3s linear;
+      -webkit-transition: all 0.3s linear;
+      transition: all 0.3s linear;
+      cursor: pointer; }
+      .workshop .work-content a:hover {
+        color: #498CB0; }
+    .workshop .work-content img {
+      max-width: 100px; }
+      @media (min-width: 992px) {
+        .workshop .work-content img {
+          float: left; } }
 
 /*.workshop {
   text-align: center;

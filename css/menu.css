@@ -113,5 +113,8 @@ nav {
     .whyr-blog a:hover {
       border-bottom: 2px solid #fce38a;
       color: #fce38a; }
+    .whyr-blog a img {
+      width: 25px;
+      margin-left: 10px; }
 
 /*# sourceMappingURL=menu.css.map */

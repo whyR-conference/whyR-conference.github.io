@@ -26,12 +26,12 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
-
-$(function() {
-    $("h4").click(function(event) {
-  $(this).closest(".work").find('.work-content').slideToggle(1000);
-    });
-});
+//======Silence function, save coment to future use=====//
+// $(function() {
+//     $("h4").click(function(event) {
+//   $(this).closest(".work").find('.work-content').slideToggle(1000);
+//     });
+// });
 
 $('.timer').countTo();
 
