@@ -442,7 +442,7 @@ a {
     text-transform: uppercase;
     padding: 20px 0 20px 0; }
   .workshop .work-content {
-    line-height: 28px;
+    line-height: 26px;
     width: 90%; }
     .workshop .work-content a {
       color: #333333;
@@ -454,7 +454,7 @@ a {
       .workshop .work-content a:hover {
         color: #498CB0; }
     .workshop .work-content img {
-      max-width: 100px; }
+      max-width: 110px; }
       @media (min-width: 992px) {
         .workshop .work-content img {
           float: left; } }
