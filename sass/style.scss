@@ -41,7 +41,7 @@ body {
     text-align: center;
     padding-top: 120px;
   a {
-    padding: 20px;
+    padding: 15px;
     @include regist-btn(80px, 40px);
     box-shadow: 0 0 0 #FFF;
     @include bs-transition(0.5s, linear);
@@ -160,7 +160,7 @@ img {
     padding: 20px 0 20px 0;
   }
   	.work-content {
-      line-height: 28px;
+      line-height: 26px;
       width: 90%;
       a{
         color: $heading-color;
@@ -172,12 +172,19 @@ img {
       }
 
      img {
-  	max-width: 100px;
+  	max-width: 110px;
   	 @media #{$tablet}{
   	float: left;
   }
   	
   }
+  }
+}
+
+.works-head {
+  display: none;
+  @media #{$phone}{
+    display: block;
   }
 }
 

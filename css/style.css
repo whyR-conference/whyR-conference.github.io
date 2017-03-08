@@ -346,7 +346,7 @@ body {
   text-align: center;
   padding-top: 120px; }
   .register-bar a {
-    padding: 20px;
+    padding: 15px;
     width: 80px;
     height: 40px;
     border: 3px solid #FFFFFF;
@@ -458,6 +458,12 @@ a {
       @media (min-width: 992px) {
         .workshop .work-content img {
           float: left; } }
+
+.works-head {
+  display: none; }
+  @media (min-width: 768px) {
+    .works-head {
+      display: block; } }
 
 /*.workshop {
   text-align: center;
