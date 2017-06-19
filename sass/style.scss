@@ -261,6 +261,8 @@ border: none;
 }
 
 
+
+
 // Sponsorzy
 .sponsoring {
   background-color: $bg-color;
@@ -278,6 +280,12 @@ border: none;
      color:#cccac6;
      padding: 25px 0;
     }
+  }
+}
+
+.sponsors{
+  img{
+    width:50%;
   }
 }
 
