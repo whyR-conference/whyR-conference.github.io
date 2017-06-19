@@ -45,6 +45,10 @@ body {
     @include regist-btn(80px, 40px);
     box-shadow: 0 0 0 #FFF;
     @include bs-transition(0.5s, linear);
+    @media #{$phoneNew}{
+    font-size: 12px;
+    padding: 10px;
+	}
     &:hover {
       box-shadow: 0 0 10px #FFF;
       color: $accent-color;
@@ -221,6 +225,8 @@ img {
   margin: 0 auto;
   padding-top: 100px;
   padding-bottom: 55px;
+  background-color: $accent-color;
+  h3{color: $bg-color;}
   .citat{
   	li {
   		width: 50%;
@@ -229,12 +235,16 @@ img {
  	i {
     font-size: 3em;
     margin-right: 15px;
-    color: $accent-color;
+    color: $bg-color;
+    text-shadow: 1px 1px 5px black;
+outline: none;
+border: none;
     @media #{$tablet}{
     	float: left;
     }
   }
   p {
+  	color: $bg-color;
   	font-size: 0.7em;
   	@media #{$tablet} {
   	margin-left: 80px;
@@ -246,10 +256,14 @@ img {
  }
 }
 
+.bx-wrapper .bx-viewport {
+	background: $accent-color;
+}
+
 
 // Sponsorzy
 .sponsoring {
-  background-color: $accent-color;
+  background-color: $bg-color;
   .sponsors {
     text-align: center;
     :first-child {

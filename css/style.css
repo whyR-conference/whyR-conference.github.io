@@ -120,6 +120,9 @@ header {
     margin-top: 20px;
     line-height: 20px; }
 
+.sponsors h3 {
+  text-shadow: 2px 2px 1px silver; }
+
 .wrapper:after,
 .row:after {
   *zoom: 1; }
@@ -360,6 +363,10 @@ body {
     -ms-transition: all 0.5s linear;
     -webkit-transition: all 0.5s linear;
     transition: all 0.5s linear; }
+    @media (max-width: 480px) {
+      .register-bar a {
+        font-size: 12px;
+        padding: 10px; } }
     .register-bar a:hover {
       box-shadow: 0 0 10px #FFF;
       color: #498CB0;
@@ -494,18 +501,25 @@ a {
   width: 100%;
   margin: 0 auto;
   padding-top: 100px;
-  padding-bottom: 55px; }
+  padding-bottom: 55px;
+  background-color: #498CB0; }
+  .citation h3 {
+    color: #FFFFFF; }
   .citation .citat li {
     width: 50%;
     margin: 0 auto; }
   .citation .citat i {
     font-size: 3em;
     margin-right: 15px;
-    color: #498CB0; }
+    color: #FFFFFF;
+    text-shadow: 1px 1px 5px black;
+    outline: none;
+    border: none; }
     @media (min-width: 992px) {
       .citation .citat i {
         float: left; } }
   .citation .citat p {
+    color: #FFFFFF;
     font-size: 0.7em; }
     @media (min-width: 992px) {
       .citation .citat p {
@@ -513,8 +527,11 @@ a {
   .citation .citat .autor {
     padding-top: 7px; }
 
+.bx-wrapper .bx-viewport {
+  background: #498CB0; }
+
 .sponsoring {
-  background-color: #498CB0; }
+  background-color: #FFFFFF; }
   .sponsoring .sponsors {
     text-align: center; }
     .sponsoring .sponsors :first-child {
