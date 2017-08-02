@@ -269,12 +269,19 @@ border: none;
   .sponsors {
     text-align: center;
     :first-child {
-          color: #e5e4e2;
-          padding: 25px 0;
+      color: #e5e4e2;
     }
     .gold {
       color:#cea128;
-      padding: 25px 0;
+      padding-bottom: 2em;
+    }
+    img{
+      padding: 2em 0;
+    }
+    h3{
+      @media #{$phoneNew}{
+        font-size: 1.2em;
+      }
     }
   }
 }
